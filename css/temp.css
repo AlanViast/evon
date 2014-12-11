@@ -603,7 +603,6 @@ a {
   padding-top: 12px;
   padding-bottom: 6px;
   color: #fff;
-  font-size: 12px;
 }
 .ch-copyright_container
 p {
@@ -3963,7 +3962,3 @@ input[type=submit].ch_h-search-form-submit_button {
   }
 }
 
-
-#ch-header_product-user-nav_container{
-  font-size: 1.8em;
-}
