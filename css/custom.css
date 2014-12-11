@@ -26,3 +26,24 @@
 .ch-browse-school-heading.light-blue-bg{
   font-size: 12px;
 }
+.intro-page-heading{
+  font-size: 28px;
+}
+.ch-taxonomy-banner .intro-page-heading-caption{
+  font-size: 15px;
+}
+#ch-values-whats-coursehero{
+  line-height: 45px;
+}
+
+#ch-values-whats-coursehero>span.what-coursehero-heading{
+  line-height: 45px;
+}
+
+.ch-taxonomy-list-container.standardized-testing > li{
+  width: 32.3333333%;
+  float: left;
+  margin: 0px;
+  padding: 15px;
+}
+
