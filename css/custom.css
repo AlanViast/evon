@@ -47,3 +47,13 @@
   padding: 15px;
 }
 
+#ch-header_product-user-nav_container .ch-header_primary-nav_list-item>a{
+  height: 48px;
+}
+
+.school-dropdown-fieldset >select.input-sm, select.form-group-sm .form-control{
+  line-height: 1.5;
+}
+.course-search-bar a.orange-btn{
+  padding-top: 8px;
+}
