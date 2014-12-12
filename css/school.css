@@ -14,14 +14,14 @@ body {
   line-height: 1.5em;
   color: #3a3a3a
 }
-.wrapper, .ch-wrapper {
+.wrapper, .xb-wrapper {
   float: none;
   width: auto;
   margin-right: auto;
   #margin-left: auto;
   display: block
 }
-.container, .ch-container {
+.container, .xb-container {
   *zoom: 1;
   max-width: 1026px;
   _width: 1026px;
@@ -30,18 +30,18 @@ body {
   margin-left: auto;
   margin-right: auto
 }
-.container:after, .ch-container:after {
+.container:after, .xb-container:after {
   content: "";
   display: table;
   clear: both
 }
-#ch-content-wrapper {
+#xb-content-wrapper {
   margin-top: 0em;
   padding-top: 1.5em;
   padding-bottom: 2em;
   margin-bottom: 0em
 }
-.ch-banner {
+.xb-banner {
   clear: both;
   margin-top: -1.5em;
   padding-top: 1.5em;
@@ -90,14 +90,14 @@ p.intro-page-heading-caption {
   margin-bottom: 0em;
   text-align: center
 }
-#ch-values-whats-coursehero {
+#xb-values-whats-coursehero {
   width: 100%;
   float: right;
   margin-right: 0;
   #margin-left: -18px;
   display: inline
 }
-#ch-values-whats-coursehero>span.what-coursehero-heading {
+#xb-values-whats-coursehero>span.what-coursehero-heading {
   font-size: 1.33333em;
   line-height: 1.5em;
   font-weight: 600;
@@ -107,7 +107,7 @@ p.intro-page-heading-caption {
   display: inline;
   background: url(../img/whats-coursehero-arrow.png) no-repeat center right
 }
-#ch-values-whats-coursehero
+#xb-values-whats-coursehero
 ul {
   width: 83.0303%;
   float: right;
@@ -115,20 +115,20 @@ ul {
   #margin-left: -18px;
   display: inline
 }
-#ch-values-whats-coursehero ul
+#xb-values-whats-coursehero ul
 li {
   width: 32.12121%;
   float: left;
   margin-right: 1.81818%;
   display: inline
 }
-#ch-values-whats-coursehero ul li:nth-child(3n) {
+#xb-values-whats-coursehero ul li:nth-child(3n) {
   float: right;
   margin-right: 0;
   #margin-left: -18px;
   display: inline
 }
-#ch-values-whats-coursehero ul li
+#xb-values-whats-coursehero ul li
 p {
   width: 100%;
   float: right;
@@ -140,31 +140,31 @@ p {
   padding-bottom: 0em;
   margin-bottom: 0em
 }
-#ch-values-whats-coursehero ul li p .whats-coursehero-sprite, #ch-values-whats-coursehero ul li p .whats-coursehero-achieve-goals, #ch-values-whats-coursehero ul li p .whats-coursehero-assets, #ch-values-whats-coursehero ul li p .whats-coursehero-better-grades, #ch-values-whats-coursehero ul li p .whats-coursehero-study-tools {
+#xb-values-whats-coursehero ul li p .whats-coursehero-sprite, #xb-values-whats-coursehero ul li p .whats-coursehero-achieve-goals, #xb-values-whats-coursehero ul li p .whats-coursehero-assets, #xb-values-whats-coursehero ul li p .whats-coursehero-better-grades, #xb-values-whats-coursehero ul li p .whats-coursehero-study-tools {
   background-image: url('../img/whats-coursehero-sa05b4e5645.png');
   background-repeat: no-repeat
 }
-#ch-values-whats-coursehero ul li p .whats-coursehero-achieve-goals {
+#xb-values-whats-coursehero ul li p .whats-coursehero-achieve-goals {
   background-position: 0 0;
   height: 45px;
   width: 45px
 }
-#ch-values-whats-coursehero ul li p .whats-coursehero-assets {
+#xb-values-whats-coursehero ul li p .whats-coursehero-assets {
   background-position: 0 -45px;
   height: 45px;
   width: 45px
 }
-#ch-values-whats-coursehero ul li p .whats-coursehero-better-grades {
+#xb-values-whats-coursehero ul li p .whats-coursehero-better-grades {
   background-position: 0 -90px;
   height: 45px;
   width: 45px
 }
-#ch-values-whats-coursehero ul li p .whats-coursehero-study-tools {
+#xb-values-whats-coursehero ul li p .whats-coursehero-study-tools {
   background-position: 0 -135px;
   height: 45px;
   width: 45px
 }
-#ch-values-whats-coursehero ul li p span.whats-coursehero-sprite, #ch-values-whats-coursehero ul li p span.whats-coursehero-achieve-goals, #ch-values-whats-coursehero ul li p span.whats-coursehero-assets, #ch-values-whats-coursehero ul li p span.whats-coursehero-better-grades, #ch-values-whats-coursehero ul li p span.whats-coursehero-study-tools {
+#xb-values-whats-coursehero ul li p span.whats-coursehero-sprite, #xb-values-whats-coursehero ul li p span.whats-coursehero-achieve-goals, #xb-values-whats-coursehero ul li p span.whats-coursehero-assets, #xb-values-whats-coursehero ul li p span.whats-coursehero-better-grades, #xb-values-whats-coursehero ul li p span.whats-coursehero-study-tools {
   display: block;
   float: left;
   width: 45px;
@@ -223,7 +223,7 @@ p {
 
 
 
-#ch-request-tutor {
+#xb-request-tutor {
   width: 100%;
   float: left
 }
@@ -393,10 +393,10 @@ p {
   overflow: hidden;
   text-overflow: ellipsis
 }
-.course-overview-facts>li>.ch-rating-fact {
+.course-overview-facts>li>.xb-rating-fact {
   float: left
 }
-.course-overview-facts>li>.ch-rank-label {
+.course-overview-facts>li>.xb-rank-label {
   margin-left: 3em;
   margin-right: 0em
 }
@@ -487,12 +487,12 @@ a.show-more>i {
   background: #f7fcfe
 }
 @media (min-width:320px) and (max-width:990px) {
-  #course-taxonomy-document-list-container.grid-view > li .ch-product-details-tooltip {
+  #course-taxonomy-document-list-container.grid-view > li .xb-product-details-tooltip {
     display: none
   }
 }
 @media (min-width:991px) {
-  #course-taxonomy-document-list-container.grid-view > li .ch-product-details-tooltip {
+  #course-taxonomy-document-list-container.grid-view > li .xb-product-details-tooltip {
     position: absolute;
     z-index: 9999;
     width: 300px;
@@ -521,7 +521,7 @@ a.show-more>i {
     word-wrap: break-word;
     top: 0px
   }
-  #course-taxonomy-document-list-container.grid-view > li .ch-product-details-tooltip:after, #course-taxonomy-document-list-container.grid-view > li .ch-product-details-tooltip:before {
+  #course-taxonomy-document-list-container.grid-view > li .xb-product-details-tooltip:after, #course-taxonomy-document-list-container.grid-view > li .xb-product-details-tooltip:before {
     border: solid transparent;
     content: " ";
     height: 0;
@@ -530,32 +530,32 @@ a.show-more>i {
     pointer-events: none;
     right: 100%
   }
-  #course-taxonomy-document-list-container.grid-view > li .ch-product-details-tooltip:after {
+  #course-taxonomy-document-list-container.grid-view > li .xb-product-details-tooltip:after {
     border-color: rgba(255, 255, 255, 0);
     border-right-color: white;
     border-width: 8px;
     top: 50%;
     margin-top: -8px
   }
-  #course-taxonomy-document-list-container.grid-view > li .ch-product-details-tooltip:before {
+  #course-taxonomy-document-list-container.grid-view > li .xb-product-details-tooltip:before {
     border-color: rgba(255, 255, 255, 0);
     border-right-color: #bbe8f9;
     border-width: 11px;
     top: 50%;
     margin-top: -11px
   }
-  #course-taxonomy-document-list-container.grid-view > li .ch-product-details-tooltip h1, #course-taxonomy-document-list-container.grid-view > li .ch-product-details-tooltip h2, #course-taxonomy-document-list-container.grid-view > li .ch-product-details-tooltip h3, #course-taxonomy-document-list-container.grid-view > li .ch-product-details-tooltip h4, #course-taxonomy-document-list-container.grid-view > li .ch-product-details-tooltip h5, #course-taxonomy-document-list-container.grid-view > li .ch-product-details-tooltip
+  #course-taxonomy-document-list-container.grid-view > li .xb-product-details-tooltip h1, #course-taxonomy-document-list-container.grid-view > li .xb-product-details-tooltip h2, #course-taxonomy-document-list-container.grid-view > li .xb-product-details-tooltip h3, #course-taxonomy-document-list-container.grid-view > li .xb-product-details-tooltip h4, #course-taxonomy-document-list-container.grid-view > li .xb-product-details-tooltip h5, #course-taxonomy-document-list-container.grid-view > li .xb-product-details-tooltip
   h6 {
     margin-bottom: 0.5em
   }
-  #course-taxonomy-document-list-container.grid-view > li .ch-product-details-tooltip:after, #course-taxonomy-document-list-container.grid-view > li .ch-product-details-tooltip:before {
+  #course-taxonomy-document-list-container.grid-view > li .xb-product-details-tooltip:after, #course-taxonomy-document-list-container.grid-view > li .xb-product-details-tooltip:before {
     top: 20px
   }
 }
-#course-taxonomy-document-list-container.grid-view > li .ch-product-coa {
+#course-taxonomy-document-list-container.grid-view > li .xb-product-coa {
   padding-bottom: 0.5em
 }
-#course-taxonomy-document-list-container.grid-view > li .ch-product-coa *[class*="-btn"] {
+#course-taxonomy-document-list-container.grid-view > li .xb-product-coa *[class*="-btn"] {
   display: block;
   font-size: 1em;
   line-height: 1.5em
@@ -610,7 +610,7 @@ a.show-more>i {
     #margin-left: -18px;
     display: inline
   }
-  #course-taxonomy-document-list-container.grid-view > li:nth-child(4n) .ch-product-details-tooltip {
+  #course-taxonomy-document-list-container.grid-view > li:nth-child(4n) .xb-product-details-tooltip {
     position: absolute;
     z-index: 9999;
     width: 300px;
@@ -637,7 +637,7 @@ a.show-more>i {
     -webkit-box-shadow: -1px 1px 2px #e3e3e3;
     box-shadow: -1px 1px 2px #e3e3e3
   }
-  #course-taxonomy-document-list-container.grid-view > li:nth-child(4n) .ch-product-details-tooltip:after, #course-taxonomy-document-list-container.grid-view > li:nth-child(4n) .ch-product-details-tooltip:before {
+  #course-taxonomy-document-list-container.grid-view > li:nth-child(4n) .xb-product-details-tooltip:after, #course-taxonomy-document-list-container.grid-view > li:nth-child(4n) .xb-product-details-tooltip:before {
     border: solid transparent;
     content: " ";
     height: 0;
@@ -646,26 +646,26 @@ a.show-more>i {
     pointer-events: none;
     left: 100%
   }
-  #course-taxonomy-document-list-container.grid-view > li:nth-child(4n) .ch-product-details-tooltip:after {
+  #course-taxonomy-document-list-container.grid-view > li:nth-child(4n) .xb-product-details-tooltip:after {
     border-color: rgba(255, 255, 255, 0);
     border-left-color: white;
     border-width: 8px;
     top: 50%;
     margin-top: -8px
   }
-  #course-taxonomy-document-list-container.grid-view > li:nth-child(4n) .ch-product-details-tooltip:before {
+  #course-taxonomy-document-list-container.grid-view > li:nth-child(4n) .xb-product-details-tooltip:before {
     border-color: rgba(255, 255, 255, 0);
     border-left-color: #bbe8f9;
     border-width: 11px;
     top: 50%;
     margin-top: -11px
   }
-  #course-taxonomy-document-list-container.grid-view > li:nth-child(4n) .ch-product-details-tooltip:after, #course-taxonomy-document-list-container.grid-view > li:nth-child(4n) .ch-product-details-tooltip:before {
+  #course-taxonomy-document-list-container.grid-view > li:nth-child(4n) .xb-product-details-tooltip:after, #course-taxonomy-document-list-container.grid-view > li:nth-child(4n) .xb-product-details-tooltip:before {
     top: 20px
   }
 }
 @media (min-width:991px) {
-  #course-taxonomy-document-list-container.grid-view > li:hover .ch-product-details-tooltip {
+  #course-taxonomy-document-list-container.grid-view > li:hover .xb-product-details-tooltip {
     display: block
   }
 }
@@ -676,20 +676,20 @@ a.show-more>i {
   #margin-left: -18px;
   display: inline
 }
-#course-taxonomy-document-list-container .ch-product-thumbnail-link {
+#course-taxonomy-document-list-container .xb-product-thumbnail-link {
   height: 224px
 }
-#course-taxonomy-document-list-container .ch-product-details-title
+#course-taxonomy-document-list-container .xb-product-details-title
 h6 {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden
 }
-#course-taxonomy-document-list-container .ch-product-details {
+#course-taxonomy-document-list-container .xb-product-details {
   padding-left: 0.5em;
   padding-right: 0.5em
 }
-#course-taxonomy-document-list-container .ch-product-details>li.ch-product-coa {
+#course-taxonomy-document-list-container .xb-product-details>li.xb-product-coa {
   padding-bottom: 0em
 }
 #course-resource-first-level-filter>li {
@@ -706,30 +706,30 @@ img.small-shadow {
   color: #878787
 }
 @media (min-width:320px) and (max-width:767px) {
-  .ch-taxonomy-banner .intro-page-heading {
+  .xb-taxonomy-banner .intro-page-heading {
     font-size: 1.75em;
     line-height: 1.42857em
   }
 }
 @media (min-width:768px) and (max-width:990px) {
-  .ch-taxonomy-banner .intro-page-heading {
+  .xb-taxonomy-banner .intro-page-heading {
     font-size: 2.33333em;
     line-height: 1.28571em
   }
 }
 @media (min-width:320px) and (max-width:767px) {
-  .ch-taxonomy-banner .intro-page-heading-caption {
+  .xb-taxonomy-banner .intro-page-heading-caption {
     font-size: 1.16667em;
     line-height: 1.28571em
   }
 }
 @media (min-width:768px) and (max-width:990px) {
-  .ch-taxonomy-banner .intro-page-heading-caption {
+  .xb-taxonomy-banner .intro-page-heading-caption {
     font-size: 1.33333em;
     line-height: 1.5em
   }
 }
-.ch-taxonomy-banner #ch-values-whats-coursehero {
+.xb-taxonomy-banner #xb-values-whats-coursehero {
   padding-top: 1.5em;
   border-top-width: 1px;
   border-right-width: 0px;
@@ -739,7 +739,7 @@ img.small-shadow {
   border-color: #bbe8f9
 }
 @media (min-width:320px) and (max-width:990px) {
-  .ch-taxonomy-banner #ch-values-whats-coursehero {
+  .xb-taxonomy-banner #xb-values-whats-coursehero {
     display: none
   }
 }
@@ -1124,20 +1124,20 @@ h4 {
     width: 100%
   }
 }
-.featued-schools > li .ch-taxonomy-list-resource-summary
+.featued-schools > li .xb-taxonomy-list-resource-summary
 a {
   font-size: 0.91667em;
   line-height: 2.18182em;
   color: #878787
 }
-.featued-schools > li .ch-taxonomy-list-resource-summary a:first-child {
+.featued-schools > li .xb-taxonomy-list-resource-summary a:first-child {
   padding-left: 0
 }
-.featued-schools > li .ch-taxonomy-list-resource-summary a:last-child {
+.featued-schools > li .xb-taxonomy-list-resource-summary a:last-child {
   border: none;
   padding-right: none
 }
-.featued-schools > li .ch-taxonomy-list-resource-summary a:hover {
+.featued-schools > li .xb-taxonomy-list-resource-summary a:hover {
   text-decoration: underline
 }
 .school-image-wrapper {
@@ -1211,7 +1211,7 @@ img {
   font-size: 1.08333em;
   line-height: 1.38462em
 }
-.ch-browse-school-wrapper {
+.xb-browse-school-wrapper {
   width: 100%;
   float: right;
   margin-right: 0;
@@ -1222,7 +1222,7 @@ img {
   padding-bottom: 0em;
   margin-bottom: 2em
 }
-.ch-browse-dept-wrapper {
+.xb-browse-dept-wrapper {
   width: 100%;
   float: right;
   margin-right: 0;
@@ -1233,7 +1233,7 @@ img {
   padding-bottom: 0em;
   margin-bottom: 2em
 }
-.ch-browse-school-heading {
+.xb-browse-school-heading {
   border: 1px
   solid #bbe8f9;
   -moz-border-radius-topleft: 5px;
@@ -1254,7 +1254,7 @@ img {
   padding-left: 0.5em;
   padding-right: 0.5em
 }
-.ch-browse-school-heading
+.xb-browse-school-heading
 h4 {
   width: 49.09091%;
   float: left;
@@ -1268,7 +1268,7 @@ h4 {
   padding-right: 0em
 }
 @media (min-width:320px) and (max-width:767px) {
-  .ch-browse-school-heading
+  .xb-browse-school-heading
   h4 {
     width: 100%;
     float: right;
@@ -1284,7 +1284,7 @@ h4 {
   }
 }
 @media (min-width:768px) and (max-width:990px) {
-  .ch-browse-school-heading
+  .xb-browse-school-heading
   h4 {
     width: 32.12121%;
     float: left;
@@ -1294,7 +1294,7 @@ h4 {
     line-height: 1.5em
   }
 }
-.ch-browse-school-heading h4.school-widget-intro {
+.xb-browse-school-heading h4.school-widget-intro {
   float: left;
   width: auto
 }

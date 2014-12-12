@@ -310,18 +310,18 @@ a {
     margin-top: 1em
   }
 }
-.browse-widget-list > li .ch-taxonomy-list-resource-summary {
+.browse-widget-list > li .xb-taxonomy-list-resource-summary {
   font-size: 1em;
   line-height: 2em
 }
-.browse-widget-list > li .ch-taxonomy-list-resource-summary
+.browse-widget-list > li .xb-taxonomy-list-resource-summary
 a {
   color: #878787
 }
-.browse-widget-list > li .ch-taxonomy-list-resource-summary a:hover {
+.browse-widget-list > li .xb-taxonomy-list-resource-summary a:hover {
   text-decoration: underline
 }
-.browse-widget-list > li .ch-taxonomy-list-resource-summary
+.browse-widget-list > li .xb-taxonomy-list-resource-summary
 em {
   color: #a0a0a0
 }

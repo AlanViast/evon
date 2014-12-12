@@ -1,4 +1,4 @@
-.container, .ch-container {
+.container, .xb-container {
   *zoom: 1;
   max-width: 1026px;
   _width: 1026px;
@@ -7,77 +7,77 @@
   margin-left: auto;
   margin-right: auto
 }
-.ch-header_primary-nav_group:after, #ch-header_secondary-nav_search:after, #ch-header_secondary-nav_search form:after {
+.xb-header_primary-nav_group:after, #xb-header_secondary-nav_search:after, #xb-header_secondary-nav_search form:after {
   content: "";
   display: block;
   clear: both
 }
-.ch-header_primary-nav_container, .ch-header_secondary-nav_container {
+.xb-header_primary-nav_container, .xb-header_secondary-nav_container {
   max-width: 1026px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 18px;
   padding-right: 18px
 }
-.ch-header_primary-nav_container::after, .ch-header_secondary-nav_container::after {
+.xb-header_primary-nav_container::after, .xb-header_secondary-nav_container::after {
   content: " ";
   display: block;
   clear: both
 }
-.ch-header_primary-nav_wrapper {
+.xb-header_primary-nav_wrapper {
   background: #0aaae7;
   height: 48px;
   position: relative
 }
-#ch-header_logo {
+#xb-header_logo {
   display: block;
   float: left;
   padding-top: 12px;
   padding-bottom: 12px
 }
-#ch-header_logo
+#xb-header_logo
 img {
   display: block;
   width: 150px;
   height: 24px
 }
 @media (min-width:768px) {
-  #ch-header_logo {
+  #xb-header_logo {
     padding-left: 0px;
     padding-right: 18px
   }
 }
 @media (min-width:320px) and (max-width:767px) {
-  #ch-header_logo {
+  #xb-header_logo {
     float: none
   }
-  #ch-header_logo
+  #xb-header_logo
   img {
     margin-left: auto;
     margin-right: auto
   }
 }
-#ch-footer:after, .ch-footer-links_container:after, .ch-copyright_container:after {
+#xb-footer:after, .xb-footer-links_container:after, .xb-copyright_container:after {
   content: "";
   display: block;
   clear: both
 }
 /* 脚部样式*/
-.ch-trust-seals_container, .ch-footer-links_container, .ch-copyright_container {
+.xb-trust-seals_container, .xb-footer-links_container, .xb-copyright_container {
   max-width: 1026px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 18px;
   padding-right: 18px
 }
-#ch-footer {
+#xb-footer {
   clear: both;
   position: relative;
   z-index: 2;
   font-size: 14px;
   line-height: 24px
 }
-.ch-trust-seals_wrapper {
+.xb-trust-seals_wrapper {
   background: #f3f3f3;
   border-top-width: 1px;
   border-top-style: solid;
@@ -85,43 +85,43 @@ img {
   padding-bottom: 12px;
   border-color: #e3e3e3
 }
-.ch-trust-seals_container {
+.xb-trust-seals_container {
   text-align: center
 }
-.ch-trust-seals_bbb-icon {
+.xb-trust-seals_bbb-icon {
   background-repeat: no-repeat
 }
-.ch-footer-links_wrapper {
+.xb-footer-links_wrapper {
   background: #06476b
 }
-.ch-copyright_wrapper {
+.xb-copyright_wrapper {
   background: #0aaae7
 }
-.ch-copyright_container {
+.xb-copyright_container {
   padding-top: 12px;
   padding-bottom: 6px;
   color: #fff
 }
-.ch-copyright_container
+.xb-copyright_container
 p {
   margin-top: 0px;
   margin-bottom: 6px
 }
-.ch-copyright_container p:first-child {
+.xb-copyright_container p:first-child {
   margin-top: 0px
 }
 @media (min-width:768px) and (max-width:990px) {
-  .ch-copyright_container {
+  .xb-copyright_container {
     text-align: center
   }
 }
 @media (min-width:991px) {
-  .ch-copyright_info {
+  .xb-copyright_info {
     float: left
   }
 }
 @media (min-width:991px) {
-  .ch-copyright_fyi {
+  .xb-copyright_fyi {
     float: right
   }
 }

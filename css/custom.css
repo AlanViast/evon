@@ -5,7 +5,7 @@
   margin-top: 80px;
 }
 
-.ch-copyright_container{
+.xb-copyright_container{
   font-size: 12px;
 }
 
@@ -16,38 +16,38 @@
 .text-gray{
   color: gray;
 }
-#ch-header_product-user-nav_container{
+#xb-header_product-user-nav_container{
   font-size: 15px;
 }
 
 .font-size-32{
   font-size: 32px;
 }
-.ch-browse-school-heading.light-blue-bg{
+.xb-browse-school-heading.light-blue-bg{
   font-size: 12px;
 }
 .intro-page-heading{
   font-size: 28px;
 }
-.ch-taxonomy-banner .intro-page-heading-caption{
+.xb-taxonomy-banner .intro-page-heading-caption{
   font-size: 15px;
 }
-#ch-values-whats-coursehero{
+#xb-values-whats-coursehero{
   line-height: 45px;
 }
 
-#ch-values-whats-coursehero>span.what-coursehero-heading{
+#xb-values-whats-coursehero>span.what-coursehero-heading{
   line-height: 45px;
 }
 
-.ch-taxonomy-list-container.standardized-testing > li{
+.xb-taxonomy-list-container.standardized-testing > li{
   width: 32.3333333%;
   float: left;
   margin: 0px;
   padding: 15px;
 }
 
-#ch-header_product-user-nav_container .ch-header_primary-nav_list-item>a{
+#xb-header_product-user-nav_container .xb-header_primary-nav_list-item>a{
   height: 48px;
 }
 

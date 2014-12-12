@@ -7,14 +7,14 @@ body, div, h1, h2, h3, h4, h5, h6, p, a, ul, li {
   font-size: 100%;
   vertical-align: baseline
 }
-.wrapper, .ch-wrapper {
+.wrapper, .xb-wrapper {
   float: none;
   width: auto;
   margin-right: auto;
   #margin-left: auto;
   display: block
 }
-.container, .ch-container {
+.container, .xb-container {
   *zoom: 1;
   max-width: 1026px;
   _width: 1026px;
@@ -23,18 +23,18 @@ body, div, h1, h2, h3, h4, h5, h6, p, a, ul, li {
   margin-left: auto;
   margin-right: auto
 }
-.container:after, .ch-container:after {
+.container:after, .xb-container:after {
   content: "";
   display: table;
   clear: both
 }
-#ch-content-wrapper {
+#xb-content-wrapper {
   margin-top: 0em;
   padding-top: 1.5em;
   padding-bottom: 2em;
   margin-bottom: 0em
 }
-.ch-banner {
+.xb-banner {
   clear: both;
   margin-top: -1.5em;
   padding-top: 1.5em;
@@ -79,14 +79,14 @@ p.intro-page-heading-caption {
   margin-bottom: 0em;
   text-align: center
 }
-#ch-values-whats-coursehero {
+#xb-values-whats-coursehero {
   width: 100%;
   float: right;
   margin-right: 0;
   #margin-left: -18px;
   display: inline
 }
-#ch-values-whats-coursehero>span.what-coursehero-heading {
+#xb-values-whats-coursehero>span.what-coursehero-heading {
   font-size: 1.33333em;
   line-height: 1.5em;
   font-weight: 600;
@@ -96,7 +96,7 @@ p.intro-page-heading-caption {
   display: inline;
   background: url('../img/whats-coursehero-arrow.png') no-repeat center right
 }
-#ch-values-whats-coursehero
+#xb-values-whats-coursehero
 ul {
   width: 83.0303%;
   float: right;
@@ -104,20 +104,20 @@ ul {
   #margin-left: -18px;
   display: inline
 }
-#ch-values-whats-coursehero ul
+#xb-values-whats-coursehero ul
 li {
   width: 32.12121%;
   float: left;
   margin-right: 1.81818%;
   display: inline
 }
-#ch-values-whats-coursehero ul li:nth-child(3n) {
+#xb-values-whats-coursehero ul li:nth-child(3n) {
   float: right;
   margin-right: 0;
   #margin-left: -18px;
   display: inline
 }
-#ch-values-whats-coursehero ul li
+#xb-values-whats-coursehero ul li
 p {
   width: 100%;
   float: right;
@@ -129,31 +129,31 @@ p {
   padding-bottom: 0em;
   margin-bottom: 0em
 }
-#ch-values-whats-coursehero ul li p .whats-coursehero-sprite, #ch-values-whats-coursehero ul li p .whats-coursehero-achieve-goals, #ch-values-whats-coursehero ul li p .whats-coursehero-assets, #ch-values-whats-coursehero ul li p .whats-coursehero-better-grades, #ch-values-whats-coursehero ul li p .whats-coursehero-study-tools {
+#xb-values-whats-coursehero ul li p .whats-coursehero-sprite, #xb-values-whats-coursehero ul li p .whats-coursehero-achieve-goals, #xb-values-whats-coursehero ul li p .whats-coursehero-assets, #xb-values-whats-coursehero ul li p .whats-coursehero-better-grades, #xb-values-whats-coursehero ul li p .whats-coursehero-study-tools {
   background-image: url('../img/whats-coursehero-sa05b4e5645.png');
   background-repeat: no-repeat
 }
-#ch-values-whats-coursehero ul li p .whats-coursehero-achieve-goals {
+#xb-values-whats-coursehero ul li p .whats-coursehero-achieve-goals {
   background-position: 0 0;
   height: 45px;
   width: 45px
 }
-#ch-values-whats-coursehero ul li p .whats-coursehero-assets {
+#xb-values-whats-coursehero ul li p .whats-coursehero-assets {
   background-position: 0 -45px;
   height: 45px;
   width: 45px
 }
-#ch-values-whats-coursehero ul li p .whats-coursehero-better-grades {
+#xb-values-whats-coursehero ul li p .whats-coursehero-better-grades {
   background-position: 0 -90px;
   height: 45px;
   width: 45px
 }
-#ch-values-whats-coursehero ul li p .whats-coursehero-study-tools {
+#xb-values-whats-coursehero ul li p .whats-coursehero-study-tools {
   background-position: 0 -135px;
   height: 45px;
   width: 45px
 }
-#ch-values-whats-coursehero ul li p span.whats-coursehero-sprite, #ch-values-whats-coursehero ul li p span.whats-coursehero-achieve-goals, #ch-values-whats-coursehero ul li p span.whats-coursehero-assets, #ch-values-whats-coursehero ul li p span.whats-coursehero-better-grades, #ch-values-whats-coursehero ul li p span.whats-coursehero-study-tools {
+#xb-values-whats-coursehero ul li p span.whats-coursehero-sprite, #xb-values-whats-coursehero ul li p span.whats-coursehero-achieve-goals, #xb-values-whats-coursehero ul li p span.whats-coursehero-assets, #xb-values-whats-coursehero ul li p span.whats-coursehero-better-grades, #xb-values-whats-coursehero ul li p span.whats-coursehero-study-tools {
   display: block;
   float: left;
   width: 45px;
@@ -164,43 +164,43 @@ p {
 
 
 @media (min-width:320px) and (max-width:767px) {
-  .ch-taxonomy-banner .intro-page-heading {
+  .xb-taxonomy-banner .intro-page-heading {
     font-size: 1.75em;
     line-height: 1.42857em
   }
 }
 @media (min-width:768px) and (max-width:990px) {
-  .ch-taxonomy-banner .intro-page-heading {
+  .xb-taxonomy-banner .intro-page-heading {
     font-size: 2.33333em;
     line-height: 1.28571em
   }
 }
 @media (min-width:320px) and (max-width:990px) {
-  .ch-taxonomy-banner .intro-page-heading-caption {
+  .xb-taxonomy-banner .intro-page-heading-caption {
     padding-bottom: 0em
   }
 }
 @media (min-width:320px) and (max-width:767px) {
-  .ch-taxonomy-banner .intro-page-heading-caption {
+  .xb-taxonomy-banner .intro-page-heading-caption {
     font-size: 1.16667em;
     line-height: 1.28571em
   }
 }
 @media (min-width:768px) and (max-width:990px) {
-  .ch-taxonomy-banner .intro-page-heading-caption {
+  .xb-taxonomy-banner .intro-page-heading-caption {
     font-size: 1.33333em;
     line-height: 1.5em
   }
 }
 @media (min-width:991px) {
-  .ch-taxonomy-banner .intro-page-heading-caption {
+  .xb-taxonomy-banner .intro-page-heading-caption {
     margin-bottom: 1em;
     padding-bottom: 1em;
     border-bottom: 1px solid #bbe8f9
   }
 }
 @media (min-width:320px) and (max-width:990px) {
-  .ch-taxonomy-banner #ch-values-whats-coursehero {
+  .xb-taxonomy-banner #xb-values-whats-coursehero {
     display: none
   }
 }
@@ -229,24 +229,24 @@ a {
   margin-bottom: 1.5em
 }
 @media (min-width:320px) and (max-width:767px) {
-  .taxonomy-section-heading .ch-taxonomy-list-resource-summary {
+  .taxonomy-section-heading .xb-taxonomy-list-resource-summary {
     display: none
   }
 }
 @media (min-width:768px) {
-  .taxonomy-section-heading .ch-taxonomy-list-resource-summary {
+  .taxonomy-section-heading .xb-taxonomy-list-resource-summary {
     float: right;
     font-size: 0.66667em;
     line-height: 1.5em;
     font-weight: 400;
     margin-top: 0.5em
   }
-  .taxonomy-section-heading .ch-taxonomy-list-resource-summary>a {
+  .taxonomy-section-heading .xb-taxonomy-list-resource-summary>a {
     margin-right: 1em;
     border-right: 1px solid #e3e3e3;
     padding-right: 1em
   }
-  .taxonomy-section-heading .ch-taxonomy-list-resource-summary>a:first-child {
+  .taxonomy-section-heading .xb-taxonomy-list-resource-summary>a:first-child {
     padding: 0;
     margin: 0;
     border: none
@@ -382,7 +382,7 @@ img.shadow {
     display: none
   }
 }
-.ch-taxonomy-list-container {
+.xb-taxonomy-list-container {
   width: 100%;
   float: right;
   margin-right: 0;
@@ -391,7 +391,7 @@ img.shadow {
   margin-top: 0.5em
 }
 @media (min-width:320px) and (max-width:767px) {
-  .ch-taxonomy-list-container>li {
+  .xb-taxonomy-list-container>li {
     width: 100%;
     float: right;
     margin-right: 0;
@@ -402,38 +402,38 @@ img.shadow {
   }
 }
 @media (min-width:768px) {
-  .ch-taxonomy-list-container>li {
+  .xb-taxonomy-list-container>li {
     width: 49.09091%;
     float: left;
     margin-right: 1.81818%;
     display: inline;
     margin-bottom: 1em
   }
-  .ch-taxonomy-list-container>li:nth-child(2n) {
+  .xb-taxonomy-list-container>li:nth-child(2n) {
     float: right;
     margin-right: 0;
     #margin-left: -18px;
     display: inline
   }
 }
-.ch-taxonomy-list-container > li .ch-taxonomy-list-resource-summary {
+.xb-taxonomy-list-container > li .xb-taxonomy-list-resource-summary {
   font-size: 0.91667em;
   line-height: 2.18182em
 }
-.ch-taxonomy-list-container > li .ch-taxonomy-list-resource-summary
+.xb-taxonomy-list-container > li .xb-taxonomy-list-resource-summary
 a {
   color: #878787;
   border-right: 1px solid #e3e3e3;
   padding-left: 6px;
   padding-right: 8px
 }
-.ch-taxonomy-list-container > li .ch-taxonomy-list-resource-summary a:first-child {
+.xb-taxonomy-list-container > li .xb-taxonomy-list-resource-summary a:first-child {
   padding-left: 0
 }
-.ch-taxonomy-list-container > li .ch-taxonomy-list-resource-summary a:last-child {
+.xb-taxonomy-list-container > li .xb-taxonomy-list-resource-summary a:last-child {
   border: none;
   padding-right: none
 }
-.ch-taxonomy-list-container > li .ch-taxonomy-list-resource-summary a:hover {
+.xb-taxonomy-list-container > li .xb-taxonomy-list-resource-summary a:hover {
   text-decoration: underline
 }
