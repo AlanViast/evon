@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/temp.css">
+    <link rel="stylesheet" href="./css/upload.css">
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <link rel="stylesheet" href="./css/custom.css">
+</head>
+
+<body class=" pace-done">
+
+    <header id="ch-header">
+        <div class="ch-header_primary-nav_wrapper">
+            <nav class="ch-header_primary-nav_container">
+                <a href="#" id="ch-header_logo"><img src="./img/xuebanglogo.png">
+                </a>
+                <a href="#" id="ch-header_mobile-nav_action"><i class="icon-th-list fa fa-bars"></i></a>
+                <a href="#" id="ch-header_mobile-search_action"><i class="icon-search fa fa-search"></i></a>
+                <div id="ch-header_product-user-nav_container">
+                    <ul id="ch-header_product-nav" class="ch-header_primary-nav_group">
+                        <li class="ch-header_primary-nav_list-item">
+                            <a href="#">课程文档<i class="icon-down-dir fa fa-caret-down"></i></a>
+
+                            <ul class="ch-header_primary-subnav_group">
+                                <li class="ch-header_primary-subnav_list-item">
+                                    <a href="#">课程文档子菜单</a>
+                                </li>
+
+
+                            </ul>
+                        </li>
+                        <li class="ch-header_primary-nav_list-item">
+                            <a href="#">在线一对一辅导 <i class="icon-down-dir fa fa-caret-down"></i></a>
+                        </li>
+
+                        <li class="ch-header_primary-nav_list-item">
+                            <a href="#">老师信息库 <i class="icon-down-dir fa fa-caret-down"></i></a>
+                        </li>
+
+
+                        <li class="ch-header_primary-nav_list-item">
+                            <a href="#">大学评价 <i class="icon-down-dir fa fa-caret-down"></i></a>
+                        </li>
+
+                    </ul>
+                    <ul id="ch-header_user-nav" class="ch-header_primary-nav_group">
+                        <li class="ch-header_primary-nav_list-item">
+                            <a href="#" rel="nofollow">登录</a>
+                        </li>
+                        <li id="ch-header_primary-nav_signup" class="ch-header_primary-nav_list-item">
+                            <a href="#" rel="nofollow">注册</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="ch-header_secondary-nav_wrapper" class="ch-header_secondary-nav_wrapper">
+            <div class="ch-header_secondary-nav_container">
+
+                <div id="ch-header_secondary-nav_search" class="for-marketplace">
+                    <form action="#" method="GET">
+                        <div class="ch_h-search-form_input_container">
+                            <span class="twitter-typeahead" style="position: relative; display: inline-block; direction: ltr;">
+                              <input type="search" name="stx" placeholder="请输入课程名称, 老师姓名等" class="ch_h-search-form_input tt-input">
+                            </span>
+                        </div>
+                        <input type="submit" value="搜索" class="ch_h-search-form-submit_button">
+                    </form>
+                </div>
+                <ul id="ch-header_secondary-nav_group" class="for-marketplace">
+                    <li class="ch-header_secondary-nav_list-item">
+                        <a href="#"><i class="fa fa-life-ring"></i> 会员特权</a>
+                    </li>
+                    <li class="ch-header_secondary-nav_list-item">
+                        <a href="#"><i class="fa fa-gift"></i>如何获得积分</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </header>
+    <div id="ch-body">
+        <div id="upload-documents-upload-form-container" class="ng-app:app ng-scope" data-ng-app="app">
+
+
+    <h2 class="intro-page-heading"><i class="icon-upload-cloud txt-blue"></i> Start Uploading Documents</h2>
+    <div id="upload-documents-upload-manager" data-ng-controller="DocumentUploadCtrl" ng-mousemove="keepDropDownOpen(this,$element)" class="ng-scope">
+
+
+
+        <div id="upload-documents-manage-course-container">
+
+
+            <ul class="upload-documents-upload-box ng-scope" data-id="004" ng-repeat="course in Courses" ng-class="isMinimized(course)">
+
+                <li class="upload-documents-single-course-box doctype" id="upload-documents-single-course-box-004">
+                    <div class="pin-wrapper" style="height: 52px;"><div class="upload-documents-upload-box-header" id="upload-documents-upload-box-header-004" style="width: 988px;">
+                        <div class="manage-course-box-header" ng-click="toggleMinimizeCourse(course)">
+                            <h5><i class="icon-minus-circle"></i><i class="icon-plus-circle"></i> <span ng-bind-html-unsafe="setOr(course.displayName,default_displayName)" class="ng-binding">Peking Uni. - ASDSD asdad</span>
+                                <a href="" ng-click="openCourseInfoPopup(course); $event.stopPropagation();"><i class="icon-pencil"></i> Edit</a>
+                            </h5>
+                            <div class="upload-box-upload-files-button doctype" ng-hide="retag">
+                                <a href="" class="blue-btn xs" ng-click="filepickioExternal(course);  $event.stopPropagation();">Upload from Cloud</a>
+                            </div>
+                            <div class="upload-box-upload-files-button upload-from-computer-btn-container" ng-hide="retag">
+                                <form id="fileupload" action="/ajax/upload_document.php" ng-controller="DemoFileUploadController" data-file-course="course" data-file-upload="options" method="POST" enctype="multipart/form-data" data-ng-class="{'fileupload-processing': processing() || loadingFiles}" ng-init="uploadCourse = course;" class="ng-scope ng-pristine ng-valid">
+                                    <span class="blue-btn xs upload-from-computer-btn">Upload from Computer
+                                        <input type="file" ng-click=" $event.stopPropagation();" name="files[]" multiple="" alt=" ">
+                                    </span>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div></div>
+
+                    <div class="upload-box-upload-file-tracker">
+                        <div class="drag-n-drop-container doctype" ng-show="!retag &amp;&amp; course.numDocs  == 0">
+                            <form id="fileupload" action="/ajax/upload_document.php" ng-controller="DemoFileUploadControllerNoDrop" data-file-course="course" data-file-upload="options" method="POST" enctype="multipart/form-data" data-ng-class="{'fileupload-processing': processing() || loadingFiles}" ng-init="uploadCourse = course;" style="display:inline;" class="ng-scope ng-pristine ng-valid">
+                                <span class="blue-btn m upload-from-computer-btn">Upload from Computer
+                                    <input type="file" name="files[]" multiple="" alt=" ">
+                                </span>
+                            </form><span>or</span>
+                            <a href="" class="blue-btn m" ng-click="filepickioExternal(course);">Upload from Cloud</a>
+                            <br>
+                            <span>Drag and Drop files in this box</span>
+                        </div>
+
+
+                        <small class="accepted-filetype-reminder txt-lightgrey" ng-hide="retag">Supported File Types: doc, docx, ppt, pptx, pps, ppsx, xls, xlsx, pdf, ps, odt, odp, sxw, sxi, txt, rtf, epub <span class="document-type-required"><span class="txt-red">*</span> required</span></small>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="upload-documents-add-course-box">
+            <form ng-submit="addACourse();" class="ng-pristine ng-valid">
+                <a id="add-a-course-btn" href="" ng-click="addACourse();" class="blue-btn l"><i class="icon-plus-circle"></i> Add a Course</a>
+                <span class="add-course-box-text-help" ng-hide="retag"><i class="icon-left"></i> Add a Course to start uploading documents.</span>
+
+            </form>
+        </div>
+        <div class="upload-documents-coa coa-wrapper">
+            <a href="" ng-click="saveCurrentState(true); $event.preventDefault();" class="orange-btn xl" ng-class="enableSubmit()">Submit Documents</a>
+        </div>
+    </div>
+</div>
+    </div>
+
+    <footer id="ch-footer">
+        <div class="ch-footer-links_wrapper">
+            <ul class="ch-footer-links_container" id="ch-footer-links_container">
+                <li>
+                    <h6>关注我们</h6><a href="#">关于我们</a><a href="#">媒体报道</a><a href="#">微信微博</a>
+                </li>
+                <li>
+                    <h6>热门资源</h6><a href="#">热门课程</a><a href="#">热门老师</a><a href="#">热门学生</a>
+                </li>
+                <li>
+                    <h6>工作机会</h6><a href="#">招贤纳士</a><a href="#">校园大使</a><a href="#">公司团队</a>
+                </li>
+                <li>
+                    <h6>使用帮助</h6><a href="#">用户协议</a><a href="#">常见问题</a><a href="#">网站地图</a>
+                </li>
+                <li>
+                    <h6>网站声明</h6><a href="#">版权声明</a><a href="#">保密政策</a><a href="#">责任说明</a>
+                </li>
+                <li>
+                    <h6>联系我们</h6><a href="#">业务合作</a><a href="#">投诉举报</a><a href="#">意见建议</a>
+                </li>
+            </ul>
+        </div>
+        <div class="ch-copyright_wrapper">
+            <div class="ch-copyright_container">
+                <p class="ch-copyright_info">
+                    Copyright © 2002-2014 版权所有 学邦网 京ICP备 12004837 号
+                </p>
+                <p class="ch-copyright_fyi">学邦网是大学课程推荐及文档资源分享文章, 并可为您找到最好的一对一课程辅导老师</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
