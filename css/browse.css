@@ -1,0 +1,344 @@
+
+.browse-input {
+  width: 100%;
+  height: 33px;
+  margin-top: 0em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 0em;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px
+}
+.school-browse-form {
+  width: 49.09091%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -18px;
+  display: inline
+}
+@media (min-width:320px) and (max-width:767px) {
+  .school-browse-form {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -18px;
+    display: inline
+  }
+}
+@media (min-width:768px) and (max-width:990px) {
+  .school-browse-form {
+    width: 66.06061%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -18px;
+    display: inline
+  }
+}
+.school-browse-form.find-schools {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -18px;
+  display: inline;
+  margin-top: 0.25em
+}
+.school-browse-body {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -18px;
+  display: inline;
+  border-top-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-style: solid;
+  border-color: #bbe8f9;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px
+}
+@media (min-width:320px) and (max-width:767px) {
+  .school-browse-body {
+    border: none
+  }
+}
+.school-browse-body.no-pagination {
+  padding-left: 1em
+}
+.school-browse-body.no-pagination .alphabet-pagination.department-pagination {
+  display: none
+}
+.school-browse-body.no-pagination .browse-widget-list-container {
+  width: 100%;
+  padding-left: 0
+}
+.alphabet-pagination {
+  float: left;
+  border-top-width: 0px;
+  border-right-width: 1px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-style: solid;
+  border-color: #bbe8f9;
+  text-align: center
+}
+@media (min-width:320px) and (max-width:767px) {
+  .alphabet-pagination {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -18px;
+    display: inline;
+    border-top-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-style: solid;
+    border-color: #bbe8f9;
+    overflow-x: scroll;
+    overflow-y: visible;
+    white-space: nowrap;
+    margin-top: 0em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0em
+  }
+}
+@media (min-width:768px) {
+  .alphabet-pagination {
+    height: 506px
+  }
+}
+@media (min-width:768px) {
+  .alphabet-pagination.department-pagination {
+    height: 506px
+  }
+}
+.alphabet-pagination>li {
+  position: relative
+}
+@media (min-width:320px) and (max-width:767px) {
+  .alphabet-pagination>li {
+    display: inline;
+    margin-top: 0em;
+    padding-top: 0.5em;
+    padding-bottom: 0.6em;
+    margin-bottom: 0em;
+    padding-left: 0.4em;
+    padding-right: 0.4em
+  }
+}
+.alphabet-pagination>li.selected {
+  background-color: #e6f6fd
+}
+@media (min-width:320px) and (max-width:767px) {
+  .alphabet-pagination>li.selected {
+    border-top-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 1px;
+    border-style: solid;
+    border-color: #bbe8f9
+  }
+}
+@media (min-width:768px) {
+  .alphabet-pagination>li.selected {
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-style: solid;
+    border-color: #bbe8f9
+  }
+  .alphabet-pagination>li.selected:after, .alphabet-pagination>li.selected:before {
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    left: 100%
+  }
+  .alphabet-pagination>li.selected:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-left-color: #e6f6fd;
+    border-width: 9px;
+    top: 50%;
+    margin-top: -9px
+  }
+  .alphabet-pagination>li.selected:before {
+    border-color: rgba(255, 255, 255, 0);
+    border-left-color: #bbe8f9;
+    border-width: 11px;
+    top: 50%;
+    margin-top: -11px
+  }
+}
+.alphabet-pagination>li>a {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  cursor: pointer
+}
+.alphabet-pagination>li.disabled {
+  background-color: #f3f3f3
+}
+.alphabet-pagination > li.disabled
+a {
+  color: #bababa;
+  cursor: default
+}
+
+.browse-widget-list-container {
+  float: right
+}
+@media (min-width:320px) and (max-width:767px) {
+  .browse-widget-list-container {
+    width: 100%;
+    padding-top: 1em
+  }
+}
+@media (min-width:768px) {
+  .browse-widget-list-container {
+    overflow-y: auto;
+    width: 95.6%;
+    padding-left: 1.5em;
+    padding-right: 0em;
+    max-height: 506px
+  }
+}
+@media (min-width:991px) {
+  .browse-widget-list-container {
+    width: 96.7%
+  }
+}
+.browse-widget-list-container .unverified-courses-heading, .browse-widget-list-container .verified-courses-heading {
+  margin-top: 0.75em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+  background: #f8f8f8;
+  margin-right: 1em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  clear: both
+}
+.browse-widget-list-container .expand-unverified-courses-action {
+  float: right;
+  font-size: 14px
+}
+.browse-widget-list-container .expand-unverified-courses-action .expand-list {
+  display: inline
+}
+.browse-widget-list-container .expand-unverified-courses-action .collapse-list {
+  display: none
+}
+.browse-widget-list-container .expand-unverified-courses-action.expand .expand-list {
+  display: none
+}
+.browse-widget-list-container .expand-unverified-courses-action.expand .collapse-list {
+  display: inline
+}
+.browse-widget-list {
+  width: 100%;
+  float: right;
+  margin-bottom: 1em
+}
+.browse-widget-list>li {
+  -webkit-animation-name: fadeIn;
+  -moz-animation-name: fadeIn;
+  -ms-animation-name: fadeIn;
+  -o-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  -ms-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  -ms-animation-timing-function: ease;
+  -o-animation-timing-function: ease;
+  animation-timing-function: ease
+}
+.browse-widget-list>li>h5 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden
+}
+.browse-widget-list > li > h5.no-resource
+a {
+  color: #7a7a7a;
+  text-decoration: none
+}
+.browse-widget-list > li > h5.no-resource a:visited {
+  color: #606060
+}
+.browse-widget-list > li > h5.no-resource a:focus {
+  color: #7a7a7a
+}
+.browse-widget-list > li > h5.no-resource a:hover {
+  color: #878787
+}
+.browse-widget-list > li > h5.no-resource a:active {
+  color: #6d6d6d
+}
+@media (min-width:320px) and (max-width:767px) {
+  .browse-widget-list>li {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -18px;
+    display: inline;
+    border-bottom: 1px dotted #e3e3e3;
+    margin-bottom: 0.5em
+  }
+}
+@media (min-width:768px) {
+  .browse-widget-list>li {
+    width: 50%;
+    padding-left: 0em;
+    padding-right: 1.5em;
+    float: left;
+    margin-top: 1em
+  }
+}
+.browse-widget-list > li .ch-taxonomy-list-resource-summary {
+  font-size: 1em;
+  line-height: 2em
+}
+.browse-widget-list > li .ch-taxonomy-list-resource-summary
+a {
+  color: #878787
+}
+.browse-widget-list > li .ch-taxonomy-list-resource-summary a:hover {
+  text-decoration: underline
+}
+.browse-widget-list > li .ch-taxonomy-list-resource-summary
+em {
+  color: #a0a0a0
+}
+.back-to-previous {
+  font-size: 1.16667em;
+  line-height: 1.28571em;
+  float: left
+}
+@media (min-width:320px) and (max-width:767px) {
+  .back-to-previous {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -18px;
+    display: inline;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: center
+  }
+}

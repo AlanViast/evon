@@ -7,7 +7,10 @@
 
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/temp.css">
     <link rel="stylesheet" href="./css/resource.css">
+    <link rel="stylesheet" href="./css/browse.css">
+    <link rel="stylesheet" href="./css/font-awesome.css">
     <link rel="stylesheet" href="./css/custom.css">
 
 </head>
@@ -25,7 +28,7 @@
                 <div id="ch-header_product-user-nav_container">
                     <ul id="ch-header_product-nav" class="ch-header_primary-nav_group">
                         <li class="ch-header_primary-nav_list-item">
-                            <a href="#">课程文档<i class="icon-down-dir fa fa-caret-down"></i></a>
+                            <a href="#">课程文档<i class="fa fa-caret-down"></i></a>
 
                             <ul class="ch-header_primary-subnav_group">
                                 <li class="ch-header_primary-subnav_list-item">
@@ -36,16 +39,16 @@
                             </ul>
                         </li>
                         <li class="ch-header_primary-nav_list-item">
-                            <a href="#">在线一对一辅导 <i class="icon-down-dir fa fa-caret-down"></i></a>
+                            <a href="#">在线一对一辅导 <i class="fa fa-caret-down"></i></a>
                         </li>
 
                         <li class="ch-header_primary-nav_list-item">
-                            <a href="#">老师信息库 <i class="icon-down-dir fa fa-caret-down"></i></a>
+                            <a href="#">老师信息库 <i class="fa fa-caret-down"></i></a>
                         </li>
 
 
                         <li class="ch-header_primary-nav_list-item">
-                            <a href="#">大学评价 <i class="icon-down-dir fa fa-caret-down"></i></a>
+                            <a href="#">大学评价 <i class="fa fa-caret-down"></i></a>
                         </li>
 
                     </ul>
@@ -67,7 +70,7 @@
                     <form action="#" method="GET">
                         <div class="ch_h-search-form_input_container">
                             <span class="twitter-typeahead" style="position: relative; display: inline-block; direction: ltr;">
-                              <input type="search" name="stx" placeholder="请输入课程名称, 老师姓名等" class="ch_h-search-form_input tt-input">
+                              <input type="search" name="stx" placeholder="请输入课程名称, 老师姓名等" class="ch_h-search-form_input">
                             </span>
                         </div>
                         <input type="submit" value="搜索" class="ch_h-search-form-submit_button">
@@ -99,9 +102,9 @@
             <div class="page-heading-wrapper">
                 <div class="breadcrumbs">
                     <a href="#">首页</a>
-                    <i class="icon-right-open"></i>
+                    <i class="fa fa-angle-right"></i>
                     <a href="#">学校列表</a>
-                    <i class="icon-right-open"></i> 北京大学
+                    <i class="fa fa-angle-right"></i> 北京大学
 
                 </div>
             </div>
@@ -174,7 +177,7 @@
                     </h4>
                         <form class="school-browse-form">
                             <fieldset class="dept-search-fieldset">
-                                <input type="text" class="browse-input" placeholder="请输入院系名"><i class="icon-search txt-lightgrey"></i>
+                                <input type="text" class="browse-input" placeholder="请输入院系名"><i class="fa fa-search txt-lightgrey padding-top-5"></i>
                             </fieldset>
                         </form>
                     </div>
@@ -237,11 +240,136 @@
                             <li class="disabled"><a>Z</a>
                             </li>
                         </ul>
-                        <div class="no-listings " style="display: none;">
-                            <p>非常抱歉, 查询不到类似的学校</p>
-                        </div>
                         <div class="browse-widget-list-container">
                             <ul id="find-dept-override" class="browse-widget-list">
+                                <li class="listed-school">
+                                    <h5>
+                                      <a  href="#">化学与工程分子学院</a>
+                                    </h5>
+                                    <p class="ch-taxonomy-list-resource-summary">
+                                        <a  href="#">965 个文档</a>
+                                    </p>
+                                </li>
+                                <li class="listed-school">
+                                    <h5>
+                                      <a  href="#">计算机科学技术系</a>
+                                    </h5>
+                                    <p class="ch-taxonomy-list-resource-summary">
+                                        <a  href="#">25 个文档</a>
+                                    </p>
+                                </li>
+                                <li class="listed-school">
+                                    <h5>
+                                      <a  href="#">化学与工程分子学院</a>
+                                    </h5>
+                                    <p class="ch-taxonomy-list-resource-summary">
+                                        <a  href="#">965 个文档</a>
+                                    </p>
+                                </li>
+                                <li class="listed-school">
+                                    <h5>
+                                      <a  href="#">计算机科学技术系</a>
+                                    </h5>
+                                    <p class="ch-taxonomy-list-resource-summary">
+                                        <a  href="#">25 个文档</a>
+                                    </p>
+                                </li>
+                                <li class="listed-school">
+                                    <h5>
+                                      <a  href="#">化学与工程分子学院</a>
+                                    </h5>
+                                    <p class="ch-taxonomy-list-resource-summary">
+                                        <a  href="#">965 个文档</a>
+                                    </p>
+                                </li>
+                                <li class="listed-school">
+                                    <h5>
+                                      <a  href="#">计算机科学技术系</a>
+                                    </h5>
+                                    <p class="ch-taxonomy-list-resource-summary">
+                                        <a  href="#">25 个文档</a>
+                                    </p>
+                                </li>
+                                <li class="listed-school">
+                                    <h5>
+                                      <a  href="#">化学与工程分子学院</a>
+                                    </h5>
+                                    <p class="ch-taxonomy-list-resource-summary">
+                                        <a  href="#">965 个文档</a>
+                                    </p>
+                                </li>
+                                <li class="listed-school">
+                                    <h5>
+                                      <a  href="#">计算机科学技术系</a>
+                                    </h5>
+                                    <p class="ch-taxonomy-list-resource-summary">
+                                        <a  href="#">25 个文档</a>
+                                    </p>
+                                </li>
+                                <li class="listed-school">
+                                    <h5>
+                                      <a  href="#">化学与工程分子学院</a>
+                                    </h5>
+                                    <p class="ch-taxonomy-list-resource-summary">
+                                        <a  href="#">965 个文档</a>
+                                    </p>
+                                </li>
+                                <li class="listed-school">
+                                    <h5>
+                                      <a  href="#">计算机科学技术系</a>
+                                    </h5>
+                                    <p class="ch-taxonomy-list-resource-summary">
+                                        <a  href="#">25 个文档</a>
+                                    </p>
+                                </li>
+                                <li class="listed-school">
+                                    <h5>
+                                      <a  href="#">化学与工程分子学院</a>
+                                    </h5>
+                                    <p class="ch-taxonomy-list-resource-summary">
+                                        <a  href="#">965 个文档</a>
+                                    </p>
+                                </li>
+                                <li class="listed-school">
+                                    <h5>
+                                      <a  href="#">计算机科学技术系</a>
+                                    </h5>
+                                    <p class="ch-taxonomy-list-resource-summary">
+                                        <a  href="#">25 个文档</a>
+                                    </p>
+                                </li>
+                                <li class="listed-school">
+                                    <h5>
+                                      <a  href="#">化学与工程分子学院</a>
+                                    </h5>
+                                    <p class="ch-taxonomy-list-resource-summary">
+                                        <a  href="#">965 个文档</a>
+                                    </p>
+                                </li>
+                                <li class="listed-school">
+                                    <h5>
+                                      <a  href="#">计算机科学技术系</a>
+                                    </h5>
+                                    <p class="ch-taxonomy-list-resource-summary">
+                                        <a  href="#">25 个文档</a>
+                                    </p>
+                                </li>
+                                <li class="listed-school">
+                                    <h5>
+                                      <a  href="#">化学与工程分子学院</a>
+                                    </h5>
+                                    <p class="ch-taxonomy-list-resource-summary">
+                                        <a  href="#">965 个文档</a>
+                                    </p>
+                                </li>
+                                <li class="listed-school">
+                                    <h5>
+                                      <a  href="#">计算机科学技术系</a>
+                                    </h5>
+                                    <p class="ch-taxonomy-list-resource-summary">
+                                        <a  href="#">25 个文档</a>
+                                    </p>
+                                </li>
                                 <li class="listed-school">
                                     <h5>
                                       <a  href="#">化学与工程分子学院</a>
@@ -295,8 +423,6 @@
                     </div>
                 </div>
             </div>
-
-
 
             <div class="taxonomy-resource-filter-container">
                 <ul id="school-resource-first-level-filter" class="taxonomy-resource-first-level-filter">
@@ -342,142 +468,12 @@
                         <a href="#">指导</a>
                     </li>
                     <li>
-                        <a href="#">大纲8</a>
+                        <a href="#">大纲</a>
                     </li>
                 </ul>
 
             </div>
-            <div class="school-tab-body school-body-1 hidden">
-                <div class="ch-browse-dept-wrapper">
 
-
-                    <div class="ch-browse-school-heading light-blue-bg">
-                        <h4>查找院系
-                    </h4>
-                        <form class="school-browse-form">
-                            <fieldset class="dept-search-fieldset">
-                                <input type="text" class="browse-input" placeholder="请输入院系名"><i class="icon-search txt-lightgrey"></i>
-                            </fieldset>
-                        </form>
-                    </div>
-                    <div class="school-browse-body ">
-                        <ul class="alphabet-pagination department-pagination">
-                            <li class="selected"><a>All</a>
-                            </li>
-                            <li ><a>0-9</a>
-                            </li>
-                            <li ><a>A</a>
-                            </li>
-                            <li ><a>B</a>
-                            </li>
-                            <li ><a>C</a>
-                            </li>
-                            <li ><a>D</a>
-                            </li>
-                            <li ><a>E</a>
-                            </li>
-                            <li ><a>F</a>
-                            </li>
-                            <li ><a>G</a>
-                            </li>
-                            <li ><a>H</a>
-                            </li>
-                            <li ><a>I</a>
-                            </li>
-                            <li ><a>J</a>
-                            </li>
-                            <li class="disabled"><a>K</a>
-                            </li>
-                            <li ><a>L</a>
-                            </li>
-                            <li ><a>M</a>
-                            </li>
-                            <li ><a>N</a>
-                            </li>
-                            <li ><a>O</a>
-                            </li>
-                            <li ><a>P</a>
-                            </li>
-                            <li ><a>Q</a>
-                            </li>
-                            <li ><a>R</a>
-                            </li>
-                            <li ><a>S</a>
-                            </li>
-                            <li ><a>T</a>
-                            </li>
-                            <li ><a>U</a>
-                            </li>
-                            <li class="disabled"><a>V</a>
-                            </li>
-                            <li class="disabled"><a>W</a>
-                            </li>
-                            <li class="disabled"><a>X</a>
-                            </li>
-                            <li class="disabled"><a>Y</a>
-                            </li>
-                            <li class="disabled"><a>Z</a>
-                            </li>
-                        </ul>
-                        <div class="no-listings " style="display: none;">
-                            <p>非常抱歉, 查询不到类似的学校</p>
-                        </div>
-                        <div class="browse-widget-list-container">
-                            <ul id="find-dept-override" class="browse-widget-list">
-                                <li class="listed-school">
-                                    <h5>
-                                      <a  href="#">化学与工程分子学院</a>
-                                    </h5>
-                                    <p class="ch-taxonomy-list-resource-summary">
-                                        <a  href="#">965 个文档</a>
-                                    </p>
-                                </li>
-                                <li class="listed-school">
-                                    <h5>
-                                      <a  href="#">计算机科学技术系</a>
-                                    </h5>
-                                    <p class="ch-taxonomy-list-resource-summary">
-                                        <a  href="#">25 个文档</a>
-                                    </p>
-                                </li>
-                                <li class="listed-school">
-                                    <h5>
-                                      <a  href="#">化学与工程分子学院</a>
-                                    </h5>
-                                    <p class="ch-taxonomy-list-resource-summary">
-                                        <a  href="#">965 个文档</a>
-                                    </p>
-                                </li>
-                                <li class="listed-school">
-                                    <h5>
-                                      <a  href="#">计算机科学技术系</a>
-                                    </h5>
-                                    <p class="ch-taxonomy-list-resource-summary">
-                                        <a  href="#">25 个文档</a>
-                                    </p>
-                                </li>
-                                <li class="listed-school">
-                                    <h5>
-                                      <a  href="#">化学与工程分子学院</a>
-                                    </h5>
-                                    <p class="ch-taxonomy-list-resource-summary">
-                                        <a  href="#">965 个文档</a>
-                                    </p>
-                                </li>
-                                <li class="listed-school">
-                                    <h5>
-                                      <a  href="#">计算机科学技术系</a>
-                                    </h5>
-                                    <p class="ch-taxonomy-list-resource-summary">
-                                        <a  href="#">25 个文档</a>
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
             <div class="school-tab-body school-body-2">
                 <div id="all-types" class="document-type-container">
                     <h5 class="taxonomy-section-heading"><i class="icon-bookmark txt-orange"></i> 最热门
@@ -589,8 +585,6 @@
                     </ul>
                 </div>
             </div>
-
-
 
 
             <a class="back-to-previous" href="#"><i class="icon-left-open"></i>返回学校列表</a>

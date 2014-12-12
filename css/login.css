@@ -1,4 +1,12 @@
-
+.container, .ch-container {
+  *zoom: 1;
+  max-width: 1026px;
+  _width: 1026px;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-left: auto;
+  margin-right: auto
+}
 .ch-header_primary-nav_group:after, #ch-header_secondary-nav_search:after, #ch-header_secondary-nav_search form:after {
   content: "";
   display: block;
@@ -172,9 +180,6 @@ ol, ul {
   }
 }
 @media (min-width:991px) {
-  .access-account-aside.login-messaging-container, .access-account-aside.signup-messaging-container {
-    margin-top: 3em
-  }
   .access-account-aside.forgot-password-messaging-container {
     margin-top: 1em
   }
