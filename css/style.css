@@ -9,7 +9,9 @@
 
 .xb_h-search-form_input,
 .browse-input,
-.school-input
+.school-input,
+.xb_signup-email_input,
+.xb_signup-password_input
 {
   display: block;
   -moz-appearance: none;

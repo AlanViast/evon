@@ -1960,3 +1960,11 @@ p.intro-page-heading-caption {
 .txt-green {
   color: #2bc767
 }
+.very-light-grey-bg {
+filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFF3F3F3');
+background: -moz-linear-gradient(top, #fff 0%, #f3f3f3 100%);
+background: -webkit-linear-gradient(top, #fff 0%, #f3f3f3 100%);
+background: linear-gradient(to bottom, #fff 0%, #f3f3f3 100%);
+background-image: -ms-linear-gradient(top, white 0%, #f3f3f3 100%);
+background-image: linear-gradient(to bottom, #fff 0%, #f3f3f3 100%);
+}
