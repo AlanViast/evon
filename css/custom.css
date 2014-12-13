@@ -49,6 +49,9 @@
 
 #xb-header_product-user-nav_container .xb-header_primary-nav_list-item>a{
   height: 48px;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 48px;
 }
 
 .school-dropdown-fieldset >select.input-sm, select.form-group-sm .form-control{
@@ -82,6 +85,7 @@ padding-left: 20px;
 }
 .required{
   color: red;
+  padding-right: 5px;
 }
 
 .margin-top-20{
@@ -91,4 +95,56 @@ padding-left: 20px;
   width: 100%;
 }
 
+.xb-header_secondary-nav_list-item > a > i.fa.fa-gift{
+  margin-right: 4px;
+}
+
+.margin-bottom-20{
+  margin-bottom: 20px;
+}
+.registration.panel.panel-default > .panel-body > .form-horizontal > .form-group > .col-md-3 > label{
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.registration.panel.panel-default > .panel-body > .form-horizontal > .form-group > .col-md-3 > .col-md-6{
+  padding: 0;
+}
+.registration.panel.panel-default > .panel-body > .form-horizontal > .form-group > .col-md-4 > .checkbox > label {
+  line-height: 20px;
+}
+
+.registration.panel.panel-default > .panel-body > .form-horizontal > .form-group > .col-md-3:last-child{
+  padding-left: 0;
+}
+
+.txt-lightgrey {
+  color: #6d6d6d;
+}
+
+.row.guide > .col-md-4{
+  height:24px;
+}
+.row.guide > .col-md-8{
+  background-image: url("../img/setup_bg.gif");
+  background-repeat: no-repeat;
+  height: 34px;
+  line-height: 34px;
+  width: 620px;
+}
+.row.guide > .col-md-8 > span{
+  width: 48%;
+  display: inline-block;
+  font-size: 14px;
+  text-align: left;
+}
+.row.guide > .col-md-8 > span:first-child{
+  color: white;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.row.guide > .col-md-8 > span:last-child{
+  padding-left: 45px;
+}
 

@@ -12,24 +12,24 @@
 
 <body>
 
-        <div>
+    <div>
 
-            <header id="xb-header">
-                <div class="xb-header_primary-nav_wrapper">
-                    <nav class="xb-header_primary-nav_container">
-                        <a href="#" id="xb-header_logo"><img src="./img/xuebanglogo.png">
-                        </a>
-                    </nav>
-                </div>
+        <header id="xb-header">
+            <div class="xb-header_primary-nav_wrapper">
+                <nav class="xb-header_primary-nav_container">
+                    <a href="#" id="xb-header_logo"><img src="./img/xuebanglogo.png">
+                    </a>
+                </nav>
+            </div>
 
-            </header>
-        </div>
+        </header>
+    </div>
 
 
 
     <div id="xb-body">
         <div class="xb-wrapper" id="xb-content-wrapper">
-            <div id="access-account-wrapper" class="xb-banner"  style="height: 897px;padding-top: 120px;">
+            <div id="access-account-wrapper" class="xb-banner" style="padding-top: 70px;">
                 <div class="container">
 
                     <div class="access-account-aside login-messaging-container">
@@ -55,58 +55,165 @@
 
                     </div>
                     <div class="access-account-main">
-                      <h1 class="margin-20">会员登录</h1>
-                      <form action="#" class="form-horizontal" method="post">
-                          <div class="form-group" >
-                              <label class="col-sm-3 control-label">登录名</label>
-                              <div class="col-sm-8">
-                                  <input class="form-control" type="text" value="">
-                              </div>
-                          </div>
+                        <h1 class="margin-20">会员登录</h1>
+                        <form action="#" class="form-horizontal" method="post">
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">登录名</label>
+                                <div class="col-sm-8">
+                                    <input class="form-control" type="text" value="">
+                                </div>
+                            </div>
 
-                          <div class="form-group">
-                              <label class="col-sm-3 control-label">密码</label>
-                              <div class="col-sm-8">
-                                  <input class="form-control" type="password">
-                              </div>
-                          </div>
-
-
-                          <div class="form-group">
-                              <label class="col-sm-3 control-label"></label>
-                              <div class="col-sm-8">
-                                  <input class="" type="checkbox">自动登录(一周内有效)
-                              </div>
-                          </div>
-
-                          <div class="form-group" >
-                              <div class="col-sm-8 col-sm-push-3">
-                                  <input class="btn btn-success col-md-6" type="submit" value="登录">
-                                  <a href="#" class='margin-20'>忘记密码?</a>
-                              </div>
-                          </div>
-
-                      </form>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">密码</label>
+                                <div class="col-sm-8">
+                                    <input class="form-control" type="password">
+                                </div>
+                            </div>
 
 
-                      <hr>
-                      <p class="margin-20 text-gray">如果还不是学帮会员?   <a href="#">下边马上去注册</a></p>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label"></label>
+                                <div class="col-sm-8">
+                                    <input class="" type="checkbox">自动登录(一周内有效)
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-8 col-sm-push-3">
+                                    <input class="btn btn-success col-md-6" type="submit" value="登录">
+                                    <a href="#" class='margin-20'>忘记密码?</a>
+                                </div>
+                            </div>
+
+                        </form>
+
+
+                        <hr>
+                        <p class="margin-20 text-gray">如果还不是学帮会员? <a href="#">下边马上去注册</a>
+                        </p>
                     </div>
+
+
+
+                    <div class="row margin-bottom-20">
+                        <div class="col-md-12">
+                            <div class="panel panel-default text-center registration">
+                                <div class="panel-body">
+                                    <div class="row guide">
+                                        <div class="col-md-2">
+                                          </div>
+                                          <div class="col-md-8">
+                                              <span>
+                                                第一步: 填写注册信息
+                                              </span>
+
+                                              <span>第二步: 注册成功</span>
+                                          </div>
+
+                                    </div>
+
+                                  <form action="" class="form-horizontal padding-top-20">
+                                    <div class="form-group">
+                                        <div class="col-md-3 text-right">
+                                            <label for="" class="control-label txt-lightgrey "><span class="required" >*</span>账户名</label>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="text" class="form-control" placeholder="请输入用户名">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="text" class="form-control" disabled value="请输入用户名/邮箱/手机号">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-md-3 text-right">
+                                            <label for="" class="control-label txt-lightgrey"><span class="required" >*</span>请设置密码</label>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="text" class="form-control" placeholder="请输入密码">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="text" class="form-control" disabled value="请输入1-18位密码">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-md-3 text-right">
+                                            <label for="" class="control-label txt-lightgrey"><span class="required" >*</span>确认密码</label>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="text" class="form-control" placeholder="请输入确认密码">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="text" class="form-control" disabled value="请输入确认密码">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-md-3 text-right">
+                                            <label for="" class="control-label"><span class="required" >*</span>验证码</label>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="col-md-6">
+                                                <input type="text" class="form-control" placeholder="请输入确认密码">
+                                            </div>
+
+                                            <div class="col-md-6">
+                                              <img src="./img/yz.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 text-left">
+                                          <label for="" class="control-label">看不清? <a href="#">换一张</a></label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-md-3">
+                                        </div>
+                                        <div class="col-md-4 text-left">
+                                          <div class="checkbox">
+                                            <label>
+                                              <input type="checkbox"> 我已阅读并同意 <a href="#"><<学邦用户注册协议>></a>
+                                            </label>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-md-3">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a class="btn btn-success btn-block">注册</a>
+                                          </div>
+                                          <div class="col-md-3"></div>
+                                        </div>
+                                    </div>
+
+                                  </form>
+
+
+
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-      </div>
+        </div>
     </div>
 
-            <footer id="xb-footer">
-                <div class="xb-copyright_wrapper">
-                    <div class="xb-copyright_container">
-                        <p class="xb-copyright_info">
-                            Copyright © 2002-2014 版权所有 学邦网 京ICP备 12004837 号
-                        </p>
-                        <p class="xb-copyright_fyi">学邦网是大学课程推荐及文档资源分享文章, 并可为您找到最好的一对一课程辅导老师</p>
-                    </div>
-                </div>
-            </footer>
-    </body>
+    <footer id="xb-footer">
+        <div class="xb-copyright_wrapper">
+            <div class="xb-copyright_container">
+                <p class="xb-copyright_info">
+                    Copyright © 2002-2014 版权所有 学邦网 京ICP备 12004837 号
+                </p>
+                <p class="xb-copyright_fyi">学邦网是大学课程推荐及文档资源分享文章, 并可为您找到最好的一对一课程辅导老师</p>
+            </div>
+        </div>
+    </footer>
+</body>
 
 </html>
