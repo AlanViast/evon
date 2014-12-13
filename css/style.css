@@ -7,7 +7,10 @@
   vertical-align: baseline
 }
 
-input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea, select {
+.xb_h-search-form_input,
+.browse-input,
+.school-input
+{
   display: block;
   -moz-appearance: none;
   -webkit-appearance: none;

@@ -1,17 +1,41 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 
 /* ================================================================================================================== */
 /* HTML Tags */
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-html { font-size: 75%; line-height: 0.5em; }
-
-body { font-family: "Open Sans", sans-serif; font-weight: 400; font-size: 1em; line-height: 1.5em; color: #3a3a3a; }
-body a { color: #0aaae7; text-decoration: none; }
-body h1, body h2, body h3, body h4, body h5, body h6 { font-weight: 600; }
-body h6 { font-size: 1.16667em; line-height: 1.28571em; }
-
-.intro-page-heading { color: #0aaae7; font-size: 2.66667em; line-height: 1.125em; margin-top: 0em; padding-top: 0em; padding-bottom: 0.5em; margin-bottom: 0em; text-align: center; }
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  font-size: 75%;
+  line-height: 0.5em;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #3a3a3a;
+}
+body a {
+  color: #0aaae7;
+  text-decoration: none;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-weight: 600;
+}
+body h6 {
+  font-size: 1.16667em;
+  line-height: 1.28571em;
+}
 
 /* Buttons */
 /* ================================================================================================================== */
@@ -24,48 +48,232 @@ body h6 { font-size: 1.16667em; line-height: 1.28571em; }
 /* Text Colors */
 /* ================================================================================================================== */
 /* Buttons */
-div.coa-wrapper { width: 100%; float: right; margin-right: 0; #margin-left: -18px; display: inline; clear: both; text-align: center; }
+div.coa-wrapper {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -18px;
+  display: inline;
+  clear: both;
+  text-align: center;
+}
+.upload-documents-single-course-box {
+  position: relative;
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -18px;
+  display: inline;
+  margin-top: 1.5em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0.5em;
+  border: 1px solid #bbe8f9;
+}
+.upload-documents-single-course-box.error {
+  border-color: #ffa5a2;
+}
+@media (min-width:768px) and (max-width:990px) {
+  .upload-documents-single-course-box {
+    height: 455px;
+  }
+}
+@media (min-width:768px) and (max-width:990px) {
+  .upload-documents-single-course-box.doctype {
+    height: auto;
+  }
+}
+.upload-documents-upload-box-header {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -18px;
+  display: inline;
+  z-index: 499;
+}
+.upload-documents-upload-box-header.sticky {
+  position: fixed;
+  top: 0px;
+}
+.manage-course-box-header {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -18px;
+  display: inline;
+  margin-top: 0em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border-bottom: 1px solid #bbe8f9;
+  border-left: 50px solid #bbe8f9;
+  cursor: pointer;
+  background: #eff9fe;
+  font-size: 13px;
+  line-height: 2em;
+}
+.manage-course-box-header h5 {
+  float: left;
+  margin-left: -50px;
+}
+.manage-course-box-header h5 > a {
+  margin-left: .5em;
+  padding-left: .5em;
+  border-left: 1px solid #e3e3e3;
+}
+@media (min-width:320px) and (max-width:767px) {
+  .manage-course-box-header h5 > a {
+    display: none;
+  }
+}
+.manage-course-box-header i.fa.fa-plus-circle, .manage-course-box-header i.fa.fa-minus-circle {
+  margin-right: 30px;
+}
+.manage-course-box-header i.fa.fa-plus-circle {
+  display: none;
+}
+.manage-course-box-header i.fa.fa-minus-circle {
+  display: inline;
+}
+.manage-course-box-close {
+  float: right;
+  font-size: 11px;
+  color: #3a3a3a;
+  cursor: pointer;
+}
+@media (min-width:320px) and (max-width:767px) {
+  .manage-course-box-close {
+    display: none;
+  }
+}
+@media (min-width:320px) and (max-width:990px) {
+  .drag-n-drop-container {
+    display: none;
+  }
+}
+@media (min-width:991px) {
+  .drag-n-drop-container {
+    display: block;
+    clear: both;
+    margin-top: 1em;
+    padding-top: 11em;
+    padding-bottom: 0em;
+    margin-bottom: 1em;
+    height: 342px;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: 2px dashed #e3e3e3;
+    background: #fcfcfc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #a0a0a0;
+    text-align: center;
+  }
+  .drag-n-drop-container *[class*="-btn"] {
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  .drag-n-drop-container span {
+    font-size: 1.5em;
+    line-height: 1.33333em;
+  }
+}
+.upload-box-upload-file-tracker {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -18px;
+  display: inline;
+  margin-bottom: 1em;
+}
+.upload-box-upload-file-section-middle {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -18px;
+  display: inline;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: #fbfbfb;
+}
+@media (min-width:320px) and (max-width:990px) {
+  .upload-box-upload-file-section-middle.doctype {
+    display: none;
+  }
+}
+@media (min-width:320px) and (max-width:767px) {
+  .upload-box-upload-files-button {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -18px;
+    display: inline;
+    margin-top: 0.5em;
+  }
+}
+@media (min-width:768px) {
+  .upload-box-upload-files-button {
+    float: right;
+    margin-left: 1em;
+  }
+}
+.upload-box-upload-files-button *[class*="-btn"] {
+  display: block;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+@media (min-width:320px) and (max-width:767px) {
+  .upload-box-upload-files-button.doctype {
+    margin-top: 0.5em;
+    width: 83.0303%;
+    float: left;
+    margin-right: 1.81818%;
+    display: inline;
+  }
+}
+@media (min-width:320px) and (max-width:767px) {
+  .upload-box-upload-files-button.upload-from-computer-btn-container {
+    display: none;
+  }
+}
+.upload-from-computer-btn {
+  position: relative;
+}
+.upload-from-computer-btn input[type=file] {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  cursor: pointer !important;
+  height: 100%;
+  width: 100%;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+.container, .xb-container {
+  *zoom: 1;
+  max-width: 1026px;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.intro-page-heading {
+  color: #0aaae7;
+  line-height: 1.125em;
+  margin-top: 0em;
+  padding-top: 20px;
+  padding-bottom: 0.5em;
+  margin-bottom: 0em;
+  text-align: center;
+}
 
+.accepted-filetype-reminder { width: 100%; float: right; margin-right: 0; #margin-left: -18px; display: inline; padding-left: 1em; padding-right: 1em; }
+.accepted-filetype-reminder > .document-type-required { float: right; }
 
-
-.upload-documents-single-course-box { position: relative; width: 100%; float: right; margin-right: 0; #margin-left: -18px; display: inline; margin-top: 1.5em; padding-top: 0em; padding-bottom: 0em; margin-bottom: 0.5em; border: 1px solid #bbe8f9; }
-.upload-documents-single-course-box.error { border-color: #ffa5a2; }
-@media (min-width: 768px) and (max-width: 990px) { .upload-documents-single-course-box { height: 455px; } }
-@media (min-width: 768px) and (max-width: 990px) { .upload-documents-single-course-box.doctype { height: auto; } }
-
-.upload-documents-upload-box-header { width: 100%; float: right; margin-right: 0; #margin-left: -18px; display: inline; z-index: 499; }
-.upload-documents-upload-box-header.sticky { position: fixed; top: 0px; }
-
-.manage-course-box-header { width: 100%; float: right; margin-right: 0; #margin-left: -18px; display: inline; margin-top: 0em; padding-top: 1em; padding-bottom: 1em; margin-bottom: 0em; padding-left: 1.5em; padding-right: 1.5em; border-bottom: 1px solid #bbe8f9; border-left: 50px solid #bbe8f9; cursor: pointer; background: #eff9fe; }
-.manage-course-box-header h5 { float: left; margin-left: -50px; }
-.manage-course-box-header h5 > a { margin-left: .5em; padding-left: .5em; border-left: 1px solid #e3e3e3; }
-@media (min-width: 320px) and (max-width: 767px) { .manage-course-box-header h5 > a { display: none; } }
-.manage-course-box-header i.icon-plus-circle, .manage-course-box-header i.icon-minus-circle { margin-right: 30px; }
-.manage-course-box-header i.icon-plus-circle { display: none; }
-.manage-course-box-header i.icon-minus-circle { display: inline; }
-
-.manage-course-box-close { float: right; font-size: 11px; color: #3a3a3a; cursor: pointer; }
-@media (min-width: 320px) and (max-width: 767px) { .manage-course-box-close { display: none; } }
-
-@media (min-width: 320px) and (max-width: 990px) { .drag-n-drop-container { display: none; } }
-@media (min-width: 991px) { .drag-n-drop-container { display: block; clear: both; margin-top: 1em; padding-top: 11em; padding-bottom: 0em; margin-bottom: 1em; height: 342px; margin-left: 1em; margin-right: 1em; border: 2px dashed #e3e3e3; background: #fcfcfc; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; color: #a0a0a0; text-align: center; }
-  .drag-n-drop-container *[class*="-btn"] { margin-bottom: 0.5em; margin-left: 0.5em; margin-right: 0.5em; }
-  .drag-n-drop-container span { font-size: 1.5em; line-height: 1.33333em; } }
-
-.upload-box-upload-file-tracker { width: 100%; float: right; margin-right: 0; #margin-left: -18px; display: inline; margin-bottom: 1em; }
-
-.upload-box-upload-file-section-middle { width: 100%; float: right; margin-right: 0; #margin-left: -18px; display: inline; padding-left: 1em; padding-right: 1em; padding-top: 1em; padding-bottom: 1em; background: #fbfbfb; }
-@media (min-width: 320px) and (max-width: 990px) { .upload-box-upload-file-section-middle.doctype { display: none; } }
-
-@media (min-width: 320px) and (max-width: 767px) { .upload-box-upload-files-button { width: 100%; float: right; margin-right: 0; #margin-left: -18px; display: inline; margin-top: 0.5em; } }
-@media (min-width: 768px) { .upload-box-upload-files-button { float: right; margin-left: 1em; } }
-.upload-box-upload-files-button *[class*="-btn"] { display: block; font-size: 1em; line-height: 1.5em; font-weight: 400; }
-@media (min-width: 320px) and (max-width: 767px) { .upload-box-upload-files-button.doctype { margin-top: 0.5em; width: 83.0303%; float: left; margin-right: 1.81818%; display: inline; } }
-@media (min-width: 320px) and (max-width: 767px) { .upload-box-upload-files-button.upload-from-computer-btn-container { display: none; } }
-
-.upload-from-computer-btn { position: relative; }
-.upload-from-computer-btn input[type=file] { position: absolute; top: 0px; left: 0px; cursor: pointer !important; height: 100%; width: 100%; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; }
-
-
-
-.container, .xb-container { *zoom: 1; max-width: 1026px; padding-left: 18px; padding-right: 18px; margin-left: auto; margin-right: auto; }
