@@ -147,4 +147,13 @@ padding-left: 20px;
 .row.guide > .col-md-8 > span:last-child{
   padding-left: 45px;
 }
+input[type=submit].xb_h-search-form-submit_button{
+  word-spacing: 2px;
+}
 
+
+ul.access-account-messaging > li > h6{
+  font-family: "宋体";
+  font-size: 12px;
+  font-weight: bold;
+}

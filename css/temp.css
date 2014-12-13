@@ -887,7 +887,10 @@ i {
 }
 .homepage_main_content {
   padding-left: 12px;
-  padding-right: 0px
+  padding-right: 0px;
+  font-family: "宋体";
+  font-size: 12px;
+  font-weight: bold;
 }
 .homepage_main_content>li {
   margin-left: 12px;

@@ -171,7 +171,9 @@ ol, ul {
   font-size: 4em;
   line-height: 1.25em;
   color: #0aaae7;
-  line-height: 1.5em
+  line-height: 1.5em;
+  font-family: "雅黑";
+  font-size: 35px;
 }
 @media (min-width:768px) and (max-width:990px) {
   .access-account-aside>h1 {
