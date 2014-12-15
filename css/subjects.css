@@ -87,7 +87,6 @@ p.intro-page-heading-caption {
   display: inline
 }
 #xb-values-whats-coursehero>span.what-coursehero-heading {
-  font-size: 1.33333em;
   line-height: 1.5em;
   font-weight: 600;
   width: 15.15152%;
@@ -214,7 +213,9 @@ p {
   padding-top: 0em;
   padding-bottom: 0.5em;
   margin-bottom: 0.75em;
-  border-bottom: 1px solid #e3e3e3
+  border-bottom: 1px solid #e3e3e3;
+  font-size:16px;
+  line-height: 21px;
 }
 .taxonomy-section-heading
 i {
@@ -239,7 +240,6 @@ a {
     font-size: 0.66667em;
     line-height: 1.5em;
     font-weight: 400;
-    margin-top: 0.5em
   }
   .taxonomy-section-heading .xb-taxonomy-list-resource-summary>a {
     margin-right: 1em;
@@ -407,13 +407,15 @@ img.shadow {
     float: left;
     margin-right: 1.81818%;
     display: inline;
-    margin-bottom: 1em
+    margin-bottom: 1em;
+    font-size: 14px;
+    font-family: "宋体";
   }
   .xb-taxonomy-list-container>li:nth-child(2n) {
     float: right;
     margin-right: 0;
     #margin-left: -18px;
-    display: inline
+    display: inline;
   }
 }
 .xb-taxonomy-list-container > li .xb-taxonomy-list-resource-summary {

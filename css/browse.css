@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 .browse-input {
   width: 100%;
   height: 33px;
@@ -271,7 +271,9 @@ a {
 .browse-widget-list>li>h5 {
   white-space: nowrap;
   text-overflow: ellipsis;
-  overflow: hidden
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: bold;
 }
 .browse-widget-list > li > h5.no-resource
 a {

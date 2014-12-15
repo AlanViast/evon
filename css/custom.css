@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .font-size-4x{
   font-size: 4em;
 }
@@ -32,13 +33,12 @@
 .xb-taxonomy-banner .intro-page-heading-caption{
   font-size: 15px;
 }
-#xb-values-whats-coursehero{
-  line-height: 45px;
-}
-
+#xb-values-whats-coursehero,
 #xb-values-whats-coursehero>span.what-coursehero-heading{
   line-height: 45px;
+  font-weight: bold;
 }
+
 
 .xb-taxonomy-list-container.standardized-testing > li{
   width: 32.3333333%;
@@ -156,4 +156,37 @@ ul.access-account-messaging > li > h6{
   font-family: "宋体";
   font-size: 12px;
   font-weight: bold;
+}
+
+.xb-taxonomy-list-container.standardized-testing {
+  margin-bottom: 25px;
+}
+.xb-taxonomy-list-container.standardized-testing > li{
+  padding: 5px 15px;
+}
+
+.xb-taxonomy-list-container.standardized-testing > li > h5 > a > i.fa{
+  padding-right: 8px;
+}
+
+.pop-searches-wrapper > label{
+  display: inline;
+}
+
+.document-seach{
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.border-top-none.table-hover > tbody > tr:hover{
+  background-color: #F7F7F7;
+}
+
+.border-top-none.table-hover > tbody > tr > td{
+  border-top: none;
+}
+.gray-panel{
+  background-color: #F7F7F7;
+  padding: 0px;
 }

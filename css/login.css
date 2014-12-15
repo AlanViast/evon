@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .container, .xb-container {
   *zoom: 1;
   max-width: 1026px;
@@ -279,6 +280,13 @@ p {
   border-radius: 5px
 }
 
+.access-account-main > h1{
+  font-size: 18px;
+}
+
+.access-account-main > form > .form-group > label{
+  font-size: 14px;
+}
 
 /* 登录表单 */
 @media (min-width:320px) and (max-width:480px) {

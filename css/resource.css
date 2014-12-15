@@ -1,3 +1,4 @@
+@charset "UTF-8";
 h5{
   margin: 0;
   padding: 0;
@@ -1178,6 +1179,10 @@ a {
   line-height: 2.57143em;
   height: 31px;
 }
+
+.taxonomy-resource-filter-container .taxonomy-resource-first-level-filter>li.highlighted>a{
+  border-bottom: none;
+}
 .taxonomy-resource-filter-container .taxonomy-resource-first-level-filter > li > a .products-bitmap-icon-blue-sprite, .taxonomy-resource-filter-container .taxonomy-resource-first-level-filter > li > a .products-bitmap-icon-blue-courses, .taxonomy-resource-filter-container .taxonomy-resource-first-level-filter > li > a .products-bitmap-icon-blue-documents, .taxonomy-resource-filter-container .taxonomy-resource-first-level-filter > li > a .products-bitmap-icon-blue-flashcards, .taxonomy-resource-filter-container .taxonomy-resource-first-level-filter > li > a .products-bitmap-icon-blue-tutors {
   background-image: url('../img/products-bitmap-icon-blue-s35131fb9de.png');
   background-repeat: no-repeat
@@ -1397,7 +1402,9 @@ p {
   background-color: #e6f6fd
 }
 .school-dept-overview-heading>h5 {
-  float: left
+  float: left;
+  font-family: "宋体";
+  font-size: 16px;
 }
 @media (min-width:768px) {
   .school-dept-overview-heading>h5 {
@@ -1507,7 +1514,10 @@ p {
   padding-top: 0em;
   padding-bottom: 0.5em;
   margin-bottom: 0em;
-  border-bottom: 1px solid #e3e3e3
+  border-bottom: 1px solid #e3e3e3;
+  font-size: 14px;
+  font-family: "宋体";
+  color:  #000;
 }
 .taxonomy-section-heading
 i {
@@ -1918,7 +1928,6 @@ i {
   .xb-taxonomy-banner .intro-page-heading-caption {
     margin-bottom: 1em;
     padding-bottom: 1em;
-    border-bottom: 1px solid #bbe8f9
   }
 }
 @media (min-width:320px) and (max-width:990px) {
@@ -1966,8 +1975,7 @@ i {
   #margin-left: -18px;
   display: inline
 }
-#xb-values-whats-coursehero>span.what-coursehero-heading {
-  font-size: 1.33333em;
+#xb-values-whats-coursehero>.what-coursehero-heading {
   line-height: 1.5em;
   font-weight: 600;
   width: 15.15152%;
@@ -2011,7 +2019,9 @@ p {
 }
 
 #search-subjects-sidebar h5{
-text-align: center;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
 }
 
 .sidebar-content .sidebar-content-widgets {
@@ -2086,6 +2096,11 @@ div#ask-question-widget-full>div.ask-question-widget-full-form>h4{
 fieldset{
   margin:15px 0px;
 }
+
+fieldset.dept-search-fieldset {
+  margin:0px;
+}
+
 div#ask-question-widget-full > div.ask-question-widget-full-form .ask-question-widget-sidebar-marketing {
 width: 100%;
 float: right;

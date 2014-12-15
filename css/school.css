@@ -1296,7 +1296,8 @@ h4 {
 }
 .xb-browse-school-heading h4.school-widget-intro {
   float: left;
-  width: auto
+  width: auto;
+  font-size: 16px;
 }
 .reset-filters {
   float: right;
@@ -1304,7 +1305,7 @@ h4 {
   line-height: 1.5em;
   padding-left: 0em;
   padding-right: 0.5em;
-  padding-top: 0.25em
+
 }
 @media (min-width:320px) and (max-width:480px) {
   .reset-filters {

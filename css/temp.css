@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-weight: 400;
   font-size: 1em;
@@ -1662,11 +1663,11 @@ input[type=submit].xb_h-search-form-submit_button {
   background-image: linear-gradient(to bottom, #f7fcfe 0%, #e6f6fd 100%)
 }
 *[class*="-btn"].xl {
-  font-size: 3.5em;
+font-size: 28px;
   line-height: 1.25em
 }
 *[class*="-btn"].l {
-  font-size: 2.5em;
+  font-size: 16px;
   line-height: 1.42857em
 }
 *[class*="-btn"].m {
