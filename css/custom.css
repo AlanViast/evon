@@ -191,3 +191,11 @@ ul.access-account-messaging > li > h6{
   background-color: #F7F7F7;
   padding: 0px;
 }
+.chosen-container-single .chosen-single{
+  height: 36px;
+  line-height: 36px;
+}
+
+.chosen-container-single .chosen-single div{
+  top: 5px;
+}

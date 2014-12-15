@@ -147,7 +147,7 @@
             <div class="taxonomy-resource-filter-container">
                 <ul id="school-resource-first-level-filter" class="taxonomy-resource-first-level-filter">
                     <li class="highlighted">
-                        <a class="school-tab" href="#">
+                        <a class="school-tab"  school-tab-num="1" href="#">
                             <i class="icon-list-bullet txt-blue"></i>
                             <span class="taxonomy-resource-type-text">院系列表</span>
                         </a>
@@ -248,57 +248,7 @@
             </div>
 
 
-
-            <div class="taxonomy-resource-filter-container">
-                <ul id="school-resource-first-level-filter" class="taxonomy-resource-first-level-filter">
-                    <li class="light-grey-bg">
-                        <a class="school-tab" school-tab-num="1" href="#">
-                            <i class="icon-list-bullet txt-blue"></i>
-                            <span class="taxonomy-resource-type-text">院系列表</span>
-                        </a>
-                    </li>
-                    <li class=" highlighted">
-                        <a class="school-tab school-tab-2" school-tab-num="2" href="#">
-                            <span class="products-bitmap-icon-blue-sprite products-bitmap-icon-blue-documents"></span>
-                            <span class="taxonomy-resource-type-text">学习文档</span>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="taxonomy-resource-second-level-filter sub-filter-2 documents-tab-sub-filter">
-                    <li class="highlighted">
-                        <a href="#">全部</a>
-                    </li>
-                    <li>
-                        <a href="#">最热门</a>
-                    </li>
-                    <li>
-                        <a href="#">笔记</a>
-                    </li>
-                    <li>
-                        <a href="#">考试</a>
-                    </li>
-                    <li>
-                        <a href="#">作业</a>
-                    </li>
-                    <li>
-                        <a href="#">论文</a>
-                    </li>
-                    <li>
-                        <a href="#">实验</a>
-                    </li>
-                    <li>
-                        <a href="#">讲座</a>
-                    </li>
-                    <li>
-                        <a href="#">指导</a>
-                    </li>
-                    <li>
-                        <a href="#">大纲</a>
-                    </li>
-                </ul>
-
-            </div>
-            <div class="school-tab-body school-body-2">
+            <div class="school-tab-body school-body-2 hidden">
                 <div id="all-types" class="document-type-container">
                     <h5 class="taxonomy-section-heading"><i class="icon-bookmark txt-orange"></i> 最热门
                             </h5>
@@ -450,5 +400,18 @@
     </footer>
 
 </body>
+<script type="text/javascript" src="./js/jquery-1.11.1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".school-tab").click(function() {
+            $(".school-tab-body").addClass('hidden');
+            tabIndex = $(this).attr('school-tab-num');
+            $(".school-body-" + tabIndex).removeClass('hidden');
 
+            $(".taxonomy-resource-first-level-filter > li").removeClass('highlighted')
+            $(".taxonomy-resource-first-level-filter > li").addClass('light-grey-bg');
+            $(this).parent("li").addClass('highlighted');
+        });
+    });
+</script>
 </html>

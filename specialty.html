@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/resource.css">
     <link rel="stylesheet" href="./css/browse.css">
     <link rel="stylesheet" href="./css/font-awesome.css">
+    <link rel="stylesheet" href="./css/chosen.css">
     <link rel="stylesheet" href="./css/custom.css">
 
 </head>
@@ -179,7 +180,7 @@
                                 <fieldset>
                                     <label>选择一个专业: <span class="required">*</span>
                                     </label>
-                                    <select class="form-control">
+                                    <select class="chosen-select form-control">
                                         <option>电子商业</option>
                                     </select>
                                 </fieldset>
@@ -778,19 +779,20 @@
 
 
 <script type="text/javascript" src="./js/jquery-1.11.1.js"></script>
-
+<script type="text/javascript" src="./js/chosen.jquery.js"></script>
 <script type="text/javascript">
-$(document).ready(function() {
-    $(".school-tab").click(function() {
-        $(".school-tab-body").addClass('hidden');
-        tabIndex = $(this).attr('school-tab-num');
-        $(".school-body-" + tabIndex).removeClass('hidden');
+    $(document).ready(function() {
+        $(".school-tab").click(function() {
+            $(".school-tab-body").addClass('hidden');
+            tabIndex = $(this).attr('school-tab-num');
+            $(".school-body-" + tabIndex).removeClass('hidden');
 
-        $(".taxonomy-resource-first-level-filter > li").removeClass('highlighted')
-        $(".taxonomy-resource-first-level-filter > li").addClass('light-grey-bg');
-        $(this).parent("li").addClass('highlighted');
+            $(".taxonomy-resource-first-level-filter > li").removeClass('highlighted')
+            $(".taxonomy-resource-first-level-filter > li").addClass('light-grey-bg');
+            $(this).parent("li").addClass('highlighted');
+        });
+        $(".chosen-select").chosen()
     });
-});
 </script>
 
 
