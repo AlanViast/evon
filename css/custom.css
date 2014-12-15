@@ -185,6 +185,7 @@ ul.access-account-messaging > li > h6{
 
 .border-top-none.table-hover > tbody > tr > td{
   border-top: none;
+  padding-left: 15px;
 }
 .gray-panel{
   background-color: #F7F7F7;
