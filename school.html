@@ -68,7 +68,10 @@
                     <form action="#" method="GET">
                         <div class="xb_h-search-form_input_container">
                             <span class="twitter-typeahead" style="position: relative; display: inline-block; direction: ltr;">
-                              <input type="search" name="stx" placeholder="请输入课程名称, 老师姓名等" class="xb_h-search-form_input tt-input">
+                                <input type="search" name="stx" id="search-name" placeholder="请输入课程名称, 老师姓名等" class="xb_h-search-form_input tt-input">
+                                <a class="clear-context" data-target="search-name" href="#">
+                                    <i class="fa fa-close"></i>
+                                </a>
                             </span>
                         </div>
                         <input type="submit" value="搜&nbsp;索" class="xb_h-search-form-submit_button">
@@ -103,7 +106,11 @@
                             <fieldset class="school-input-fieldset">
                                 <div class="autocomplete_wrapper">
                                     <div class="ui-widget school-fieldset">
-                                        <input type="text" class="school-input"  placeholder="请输入学校名" maxlength="500"> </div>
+                                        <input type="text" id="search-name-1" class="school-input"  placeholder="请输入学校名" maxlength="500">
+                                        <a class="clear-context" data-target="search-name-1" href="#">
+                                            <i class="fa fa-close"></i>
+                                        </a>
+                                    </div>
                                 </div>
                                 <!-- End demo -->
                                 <a href="#"><i class="icon-cancel clear-school"></i></a>
@@ -154,17 +161,17 @@
                         <ul>
                             <li>
                                 <p>
-                                    <span class="whats-coursehero-sprite  whats-coursehero-study-tools"></span> 丰富的在线学习资源
+                                    <span class="whats-coursehero-sprite  whats-coursehero-study-tools"></span><span> 丰富的在线学习资源</span>
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <span class="whats-coursehero-sprite whats-coursehero-assets"></span>高质量的学习文档, 专家辅导
+                                    <span class="whats-coursehero-sprite whats-coursehero-assets"></span><span>高质量的学习文档, 专家辅导</span>
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <span class="whats-coursehero-sprite whats-coursehero-better-grades"></span> 所有能够让你学习更有效更成功的方式
+                                    <span class="whats-coursehero-sprite whats-coursehero-better-grades"></span><span> 所有能够让你学习更有效更成功的方式</span>
                                 </p>
                             </li>
                         </ul>
@@ -193,7 +200,7 @@
                         <h4 class="school-widget-intro">
                             查找学校
                         </h4>
-                        <a class="reset-filters reset-button" href="#">重置</a>
+                        <a class="reset-filters reset-button" href="#"><span class="fa fa-close"></span>重置</a>
                         <form class="school-browse-form find-schools" method="get" action="#" _lpchecked="1">
                             <fieldset class="school-search-fieldset">
 
@@ -432,6 +439,7 @@
 
 <script type="text/javascript" src="./js/jquery-1.11.1.js"></script>
 <script type="text/javascript" src="./js/chosen.jquery.js"></script>
+<script type="text/javascript" src="./js/common.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
         $(".chosen-select").chosen();

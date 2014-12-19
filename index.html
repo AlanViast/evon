@@ -65,7 +65,10 @@
                     <form action="#" method="GET">
                         <div class="xb_h-search-form_input_container">
                             <span class="twitter-typeahead" style="position: relative; display: inline-block; direction: ltr;">
-                              <input type="search" name="stx" placeholder="请输入课程名称, 老师姓名等" class="xb_h-search-form_input tt-input">
+                                <input type="search" name="stx" id="search-name" placeholder="请输入课程名称, 老师姓名等" class="xb_h-search-form_input tt-input">
+                                <a class="clear-context" data-target="search-name" href="#">
+                                    <i class="fa fa-close"></i>
+                                </a>
                             </span>
                         </div>
                         <input type="submit" value="搜&nbsp;索" class="xb_h-search-form-submit_button">
@@ -123,7 +126,10 @@
                         <span class="xb_signup_v-separator">or</span>
                         <form class="xb_signup_form" _lpchecked="1">
                             <input type="text" name="text" placeholder="请输入邮件地址/手机号" class="xb_signup-email_input">
-                            <input type="password" name="password" placeholder="请输入密码" class="xb_signup-password_input">
+                            <div style="position: relative;">
+                                <input type="password" name="password" placeholder="请输入密码" class="xb_signup-password_input">
+                                <i class="fa fa-keyboard-o keyboard"></i>
+                            </div>
                             <input type="submit" class="xb_signup-email_button" value="登录网站">
                         </form>
                     </div>
@@ -167,5 +173,27 @@
     </footer>
 
 </body>
+<script type="text/javascript" src="./js/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="./js/common.js"></script>
+<script type="text/javascript">
 
+    leftMenuToggle = function($obj){
+        var flag = $obj.hasClass('menu-left-show');
+        if(flag){
+            $obj.removeClass('menu-left-show');
+        } else {
+            $obj.addClass('menu-left-show');
+        }
+    }
+    $(document).ready(function(){
+        $("#xb-header_mobile-nav_action").click(function(){
+            var leftMenu = $("#xb-header_product-user-nav_container");
+            leftMenuToggle(leftMenu);
+        });
+        $("#xb-header_product-user-nav_container").mouseleave(function(event) {
+            var leftMenu = $("#xb-header_product-user-nav_container");
+            leftMenu.removeClass('menu-left-show');
+        });
+    });
+</script>
 </html>

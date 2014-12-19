@@ -286,6 +286,7 @@ p {
 
 .access-account-main > form > .form-group > label{
   font-size: 14px;
+  text-align: right;
 }
 
 /* 登录表单 */

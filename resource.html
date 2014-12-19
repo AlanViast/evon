@@ -70,7 +70,10 @@
                     <form action="#" method="GET">
                         <div class="xb_h-search-form_input_container">
                             <span class="twitter-typeahead" style="position: relative; display: inline-block; direction: ltr;">
-                              <input type="search" name="stx" placeholder="请输入课程名称, 老师姓名等" class="xb_h-search-form_input">
+                                <input type="search" name="stx" id="search-name" placeholder="请输入课程名称, 老师姓名等" class="xb_h-search-form_input tt-input">
+                                <a class="clear-context" data-target="search-name" href="#">
+                                    <i class="fa fa-close"></i>
+                                </a>
                             </span>
                         </div>
                         <input type="submit" value="搜&nbsp;索" class="xb_h-search-form-submit_button">
@@ -162,6 +165,38 @@
                         <a class="school-tab school-tab-2" school-tab-num="2" href="#">
                             <span class="taxonomy-resource-type-text">学习文档</span>
                         </a>
+                    </li>
+                </ul>
+                <ul class="hidden taxonomy-resource-second-level-filter school-tab-body school-body-2">
+                    <li class="highlighted">
+                        <a href="#">全部</a>
+                    </li>
+                    <li>
+                        <a href="#">最热门</a>
+                    </li>
+                    <li>
+                        <a href="#">笔记</a>
+                    </li>
+                    <li>
+                        <a href="#">考试</a>
+                    </li>
+                    <li>
+                        <a href="#">作业</a>
+                    </li>
+                    <li>
+                        <a href="#">论文</a>
+                    </li>
+                    <li>
+                        <a href="#">实验</a>
+                    </li>
+                    <li>
+                        <a href="#">讲座</a>
+                    </li>
+                    <li>
+                        <a href="#">指导</a>
+                    </li>
+                    <li>
+                        <a href="#">大纲</a>
                     </li>
                 </ul>
 
@@ -424,6 +459,7 @@
 
 
             <div class="school-tab-body school-body-2 hidden">
+
                 <div id="all-types" class="document-type-container">
                     <h5 class="taxonomy-section-heading"><i class="fa fa-bookmark txt-orange"></i> 最热门
                             </h5>
@@ -579,6 +615,7 @@
 
 <script type="text/javascript" src="./js/jquery-1.11.1.js"></script>
 
+<script type="text/javascript" src="./js/common.js"></script>
 <script type="text/javascript" >
     $(document).ready(function(){
         $(".school-tab").click(function(){
@@ -589,6 +626,7 @@
             $(".taxonomy-resource-first-level-filter > li").removeClass('highlighted')
             $(".taxonomy-resource-first-level-filter > li").addClass('light-grey-bg');
             $(this).parent("li").addClass('highlighted');
+            return false;
         });
     });
 </script>
